@@ -1,21 +1,27 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import classNames from "classnames";
 import "./Navbar.scss";
 
+const scrole = window.scrollY;
 export default function Navbar() {
   return (
-    <header className={classNames({ scroled: window.scrollY >= 100 })}>
+    <header>
       <div className="Logo">
         <Link to="/">
           <i className="bi bi-music-note-beamed"></i>
         </Link>
       </div>
-      <div className="Search" onClick={()=>{console.log(window.scrollY);}}>
+      <div
+        className="Search"
+        onClick={() => {
+          console.log(window.scrollY);
+        }}
+      >
         <form>
           <input type="text" placeholder="Search" />
           <button type="submit">
-            <i class="bi bi-search"></i>
+            <i className="bi bi-search"></i>
           </button>
         </form>
       </div>
