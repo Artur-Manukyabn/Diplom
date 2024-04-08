@@ -13,7 +13,6 @@ export default function Home() {
     <div className="Home">
       <div className="Home__posters">
         <div className="Home__poster">
-          <img src="" alt="" />
         </div>
         <div className="Home__poster">
           <img src="" alt="" />
@@ -29,24 +28,24 @@ export default function Home() {
           <h3>Guitars</h3>
         </div>
         <div className="Home__card">
-          <img src="./images/electrick_guitar.jpg" alt="" />
-          <h3>Guitars</h3>
+          <img src="./images/piano.jpg" alt="" />
+          <h3>Piano</h3>
         </div>
         <div className="Home__card">
-          <img src="./images/electrick_guitar.jpg" alt="" />
-          <h3>Guitars</h3>
+          <img src="./images/drum_sets.jpg" alt="" />
+          <h3>Drums</h3>
         </div>
         <div className="Home__card">
-          <img src="./images/electrick_guitar.jpg" alt="" />
-          <h3>Guitars</h3>
+          <img src="./images/sintezator.jpg" alt="" />
+          <h3>Sintezators</h3>
         </div>
         <div className="Home__card">
-          <img src="./images/electrick_guitar.jpg" alt="" />
-          <h3>Guitars</h3>
+          <img src="./images/violin.jpg" alt="" />
+          <h3>Violin</h3>
         </div>
         <div className="Home__card">
-          <img src="./images/electrick_guitar.jpg" alt="" />
-          <h3>Guitars</h3>
+          <img src="./images/flute.jpg" alt="" />
+          <h3>Flute</h3>
         </div>
       </div>
     </div>
