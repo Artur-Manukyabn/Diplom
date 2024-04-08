@@ -1,12 +1,14 @@
+@import "../SCSS/mixin";
+
 header {
+  z-index: 999;
+  top: 0;
   position: fixed;
   width: 100%;
   max-width: 1440px;
-  background-color: purple;
+  background-color: #3d3d3d;
   height: 60px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  @include dFlex(row,space-between,center);
   padding: 0.4em 0.8em;
   border-radius: 18px;
   margin-top: 12px;
@@ -25,14 +27,21 @@ header {
   nav {
     ul {
       display: flex;
-      background-color: rgb(192, 52, 192);
+      background-color: #fff;
       border-radius: 16px;
       cursor: pointer;
       li {
-        border-left: 2px solid #fff;
+        border-left: 3px solid rgb(71, 71, 71);
         padding: 0 15px;
+       i{
+        color: rgb(71, 71, 71);
+       }
         &:hover {
-          background-color: rgb(69, 12, 69);
+          background-color: rgb(71, 71, 71);
+          border: none;
+          i{
+            color: #fff;
+          }
           &:first-child {
             border-top-left-radius: 16px;
             border-bottom-left-radius: 16px;
@@ -46,8 +55,6 @@ header {
           border: none;
         }
         a {
-          display: block;
-          text-align: center;
           padding: 2px;
         }
       }
@@ -55,12 +62,11 @@ header {
   }
   .Search {
     width: 60%;
+    height: 45px;
     border-radius: 16px;
     background-color: white;
     form {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+      @include dFlex(row,space-between,center);
       padding-left: 6px;
       padding-right: 6px;
       button {
@@ -74,7 +80,7 @@ header {
       }
       input{
         margin-top: 5px;
-        height: 40px;
+        height: 35px;
         width:100%;
         border: none;
         &::placeholder{
