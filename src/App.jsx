@@ -6,7 +6,10 @@ import Home from "./components/Pages/Home/Home";
 import Account from "./components/Pages/Account/Account";
 import About from "./components/Pages/About/About";
 import Settings from "./components/Pages/Settings/Settings";
+import Catalog from "./components/Pages/Catalog/Catalog";
+
 export default function App() {
+  
   return (
     <div className="App">
       <Navbar />
@@ -15,6 +18,7 @@ export default function App() {
         <Route path="/account" element={<Account />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/settings" element={<Settings />}></Route>
+        <Route path={`/catalog`} element={<Catalog />}></Route>
       </Routes>
     </div>
   );
