@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import classNames from "classnames";
 import "./Navbar.scss";
+import ROUTES from "../../routes";
 
 const scrole = window.scrollY;
 export default function Navbar() {
@@ -28,12 +29,12 @@ export default function Navbar() {
       <nav>
         <ul>
           <li>
-            <Link to="/">
+            <Link to={ROUTES.HOME}>
               <i className="bi bi-house-fill"></i>
             </Link>
           </li>
           <li>
-            <Link to="account">
+            <Link to={ROUTES.ACCOUNT}>
               <i className="bi bi-person-fill"></i>
             </Link>
           </li>
@@ -43,12 +44,12 @@ export default function Navbar() {
             </a>
           </li>
           <li>
-            <Link to="about">
+            <Link to={ROUTES.ABOUT}>
               <i className="bi bi-info-circle-fill"></i>
             </Link>
           </li>
           <li>
-            <Link to="settings">
+            <Link to={ROUTES.SETTINGS}>
               <i className="bi bi-gear-fill"></i>
             </Link>
           </li>
