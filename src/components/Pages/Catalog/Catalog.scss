@@ -1,8 +1,61 @@
-.Catalog{
-    margin-top: 150px;
-    &__card{
-        img{
-            max-width: 300px;
-        }
+.Catalog {
+  padding: 4em;
+  h1 {
+    width: 100%;
+    text-align: center;
+    background-color: #3d3d3d;
+    color: #fff;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 16px;
+    font-size: 40px;
+  }
+  &__cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  &__card {
+    border: 2px solid purple;
+    padding: 1em;
+    border-radius: 16px;
+    width: calc(30% - 30px);
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: "Reddit Sans", sans-serif;
+    font-optical-sizing: auto;
+    img {
+      flex-grow: 1;
+      width: 100%;
+      max-height: 300px;
+      object-fit: contain;
     }
+    a,
+    button {
+      margin-top: 10px;
+      background-color: #333;
+      color: #fff;
+      padding: 4px 8px;
+      font-size: 18px;
+      font-weight: 600;
+      border-radius: 16px;
+      text-align: center;
+      width: 60%;
+      align-self: flex-end;
+      cursor: pointer;
+    }
+    h3 {
+      font-size: 18px;
+    }
+  }
+  &__buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+  }
 }
