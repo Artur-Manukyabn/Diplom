@@ -9,7 +9,6 @@ import classNames from "classnames";
 
 export default function Login() {
   const [form, setForm] = useState("Log In");
-  console.log(form);
   return (
     <div className="LogIn">
       <div className="LogIn__mainForm">

@@ -4,9 +4,18 @@ import { object, string } from "yup";
 import * as Yup from "yup";
 import "./RegistrForm.scss";
 import classNames from "classnames";
-import { nanoid } from "nanoid";
 import axios from "axios";
+import { customAlphabet } from "nanoid";
+
 export default function RegistrForm({ active }) {
+  const [usersLenght, setUsersLenght] = useState(0);
+  useEffect(() => {
+    axios("http://localhost:3000/users")
+    .then(res=>setUsersLenght(res.data.length+1))
+  }, [])
+  
+
+
   const validationSchema = object({
     userName: string()
       .min(5, "User Name must be at least 5 characters")
@@ -22,19 +31,19 @@ export default function RegistrForm({ active }) {
       [Yup.ref("password"), null],
       "Passwords must match"
     ),
+    toggle:Yup.boolean().oneOf([true])
   });
   const [userCreated, setuserUserCreated] = useState(null);
   const onSubmit = (values,{ resetForm } ) => {
     axios("http://localhost:3000/users").then(res=>setuserUserCreated(res.data))
     if(userCreated?.some(elem=>elem.email === values.email || elem.username === values.userName) ){
       resetForm()
-      console.log("nizya");
       return
     }
     const newUser = {
       ...values,
-      id:nanoid(6),
-      image:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Ffree-vector%2Fdefault-profile-picture&psig=AOvVaw2mouuvmTaCzDqX_E0Zrawl&ust=1716316243511000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNiYmLLunIYDFQAAAAAdAAAAABAE",
+      id:usersLenght.toString(),
+      image:"https://static.vecteezy.com/system/resources/previews/027/708/418/large_2x/default-avatar-profile-icon-in-flat-style-free-vector.jpg",
       card:"",
       purchases:[],
       fav:[],
@@ -42,12 +51,15 @@ export default function RegistrForm({ active }) {
     }
     axios.post("http://localhost:3000/users",newUser)
     resetForm()
+    localStorage.setItem("user",newUser.id)
+    window.location.href = "/account"
   };
   const initialValues = {
     userName: "",
     email: "",
     password: "",
     passwordConfirmation: "",
+    toggle:false
   };
   return (
     <>
@@ -81,7 +93,10 @@ export default function RegistrForm({ active }) {
             <Field type="password" name="passwordConfirmation" />
             <ErrorMessage component="p" name="passwordConfirmation" />
           </div>
-
+          <label className="RegistrForm__checkBox">
+            <Field type="checkbox" name="toggle" />
+            <p> I agree to the Terms and Conditions</p>
+          </label>
           <input type="submit" value="Register" />
         </Form>
       </Formik>

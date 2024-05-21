@@ -24,7 +24,7 @@ export default function Home() {
     slidesToShow: 1,
     slidesToScroll: 1,
     waitForAnimate: false,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 2300,
     arrows:false,
     pauseOnHover:false,
     pauseOnFocus:false
@@ -38,7 +38,7 @@ export default function Home() {
     slidesToShow: 1,
     slidesToScroll: 1,
     waitForAnimate: false,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 2500,
     arrows:false,
     pauseOnHover:false,
     pauseOnFocus:false
@@ -52,7 +52,7 @@ export default function Home() {
     slidesToShow: 1,
     slidesToScroll: 1,
     waitForAnimate: false,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 2600,
     arrows:false,
     pauseOnHover:false,
     pauseOnFocus:false
@@ -70,16 +70,16 @@ export default function Home() {
         </div>
         <div className="Home__poster">
           <Slider {...settingsForTwo}>
-            <img src="./images/poster1.jpg" alt="" />
             <img src="./images/poster2.png" alt="" />
             <img src="./images/poster3.png" alt="" />
+            <img src="./images/poster1.jpg" alt="" />
           </Slider>
         </div>
         <div className="Home__poster">
         <Slider {...settingsForThre}>
+            <img src="./images/poster3.png" alt="" />
             <img src="./images/poster1.jpg" alt="" />
             <img src="./images/poster2.png" alt="" />
-            <img src="./images/poster3.png" alt="" />
           </Slider>
         </div>
       </div>

@@ -92,6 +92,8 @@
       border-radius: 16px;
     }
   }
+
+  &__favorites,
   &__orderHistory {
     margin-top: 15px;
     margin-left: 20px;
@@ -107,36 +109,15 @@
       height: 60px;
       width: 200px;
     }
-    img {
-      width: 100px;
-      height: 100px;
-    }
-  }
-  &__favorites {
-    margin-top: 15px;
-    margin-left: 20px;
-    height: 200px;
-    border-radius: 16px;
-    background-color: #fff;
-    width: 800px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 5px;
-    h2 {
-      height: 60px;
-      width: 200px;
-    }
-    img {
-    }
   }
   &__image {
+    object-fit: cover;
+    width: 160px;
+    height: 160px;
     border: 1px solid black;
     padding: 4px 8px;
     margin-top: 20px;
     margin-left: 20px;
-    width: 150px;
-    height: 150px;
     border-radius: 16px;
   }
 }

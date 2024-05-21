@@ -61,6 +61,13 @@
   &__errors {
     height: 100px;
   }
+  &__checkBox{
+    display:flex;
+    flex-direction: row;
+    input{
+      width: 50px !important;
+    }
+  }
   input {
     color: white;
     width: 350px;
@@ -74,34 +81,60 @@
       text-indent: 5px;
       background-color: rgba($color: #b0b0b0, $alpha: 0.5);
     }
-  }
-  input[type="submit"] {
-    color: black;
-    height: 40px;
-    display: block;
-    margin-top: 15px;
-    font-size: 18px;
-    transition: .4s;
-    &:hover {
-      background-color: black;
-      border: 1px solid white;
-      color: white;
+    &[type="checkbox"]{
+      height: 25px;
+    }
+    &[type="submit"] {
+      
+      color: black;
+      display: block;
+      margin-top: 15px;
+      font-size: 18px;
+      transition: .4s;
+      border: 1px solid black;
+      &:hover {
+        background-color: black;
+        border: 1px solid white;
+        color: white;
+      }
     }
   }
-  &__inputDiv{
-    height: 80px;
-  }
+ 
 }
   .RegistrForm {
     transform: translateX(600px);
+    input[type="submit"]{
+      height: 60px;
+    }
+    &__inputDiv{
+      position: relative;
+      height: 140px;
+    }
     &__active {
       transform: translateX(0);
     }
   }
   .LogInForm {
     transform: translateX(-600px);
+    input[type="submit"]{
+      height: 30px;
+    }
+    &__inputDiv{
+      position: relative;
+      height: 90px;
+    }
     &__active {
       transform: translateX(0);
     }
   }
 
+.passowrd::after{
+  display: block;
+  content: "Forgot password?";
+  font-size: 14px;
+  position: absolute;
+  right: 60px;
+  top: 60px;
+  cursor: pointer;
+  
+}

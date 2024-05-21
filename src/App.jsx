@@ -14,10 +14,7 @@ import Login from "./components/Pages/Login/Login";
 import Footer from "./components/Footer/Footer";
 
 export default function App() {
-  useEffect(() => {
-    localStorage.setItem("signed", false);
-    // localStorage.setItem("user",null)
-  }, []);
+  
   return (
     <div className="App">
       <Navbar />

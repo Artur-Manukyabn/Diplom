@@ -60,11 +60,15 @@ export default function LogInForm({ active }) {
             <Field type="email" name="email" />
             <ErrorMessage component="p" name="email" />
           </div>
-          <div className="LogInForm__inputDiv">
-            <label htmlFor="password">PASSWORD</label>
-            <Field type="password" name="password" />
+          <div className="LogInForm__inputDiv ">
+            <label htmlFor="password" className="passowrd" >PASSWORD</label>
+            <Field type="password" name="password"  />
             <ErrorMessage component="p" name="password" />
           </div>
+          <label className="RegistrForm__checkBox">
+            <Field type="checkbox" name="toggle" />
+            <p> Remember Me</p>
+          </label>
           <input type="submit" value="Log In" />
         </Form>
       </Formik>
