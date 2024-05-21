@@ -38,7 +38,7 @@ export default function Home() {
     slidesToShow: 1,
     slidesToScroll: 1,
     waitForAnimate: false,
-    autoplaySpeed: 2500,
+    autoplaySpeed: 1000,
     arrows:false,
     pauseOnHover:false,
     pauseOnFocus:false
@@ -63,15 +63,15 @@ export default function Home() {
       <div className="Home__posters">
         <div className="Home__poster">
           <Slider {...settingsForOne}>
-            <img src="./images/poster3.png" alt="" />
             <img src="./images/poster1.jpg" alt="" />
             <img src="./images/poster2.png" alt="" />
+            <img src="./images/poster3.png" alt="" />
           </Slider>
         </div>
         <div className="Home__poster">
           <Slider {...settingsForTwo}>
-            <img src="./images/poster2.png" alt="" />
             <img src="./images/poster1.jpg" alt="" />
+            <img src="./images/poster2.png" alt="" />
             <img src="./images/poster3.png" alt="" />
           </Slider>
         </div>
@@ -83,7 +83,7 @@ export default function Home() {
           </Slider>
         </div>
       </div>
-      <h1 className="Home__title">Categires</h1>
+      <h1 className="Home__title">Categories</h1>
       <div className="Home__cards">
         {instruments.map((elem, index) => {
           return (

@@ -25,9 +25,8 @@ export default function Catalog() {
     const newCart = [...user.cart,id]
     
     setUser({...user,cart:newCart})
-    axios.post("http://localhost:3000/users/1",{
-      ...user
-    }).then(res=>console.log(res.data))
+    console.log(user);
+    axios.put("http://localhost:3000/users/1",user).then(res=>console.log(res.data))
    }
 
 

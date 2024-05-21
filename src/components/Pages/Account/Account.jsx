@@ -7,10 +7,10 @@ export default function Account() {
   const [products, setProducts] = useState([]);
   const [favorites, setFavorites] = useState([]);
   const [history, setHistory] = useState([]);
-
   useEffect(() => {
-    axios("http://localhost:3000/users").then((res) => {
-      setUser(res.data[0]);
+    const userID = localStorage.getItem("user")
+    axios(`http://localhost:3000/users/${userID}`).then((res) => {
+      setUser(res.data);
     });
     axios("http://localhost:3000/musical_instruments").then((res) => {
       setProducts(res.data);
@@ -32,6 +32,12 @@ export default function Account() {
     );
   }, [user, products]);
 
+  const singOut = () =>{
+    localStorage.setItem("user",null)
+    window.location.href="/login"
+
+   }
+
   return (
     <div className="Account">
       <div className="Account__personeCard">
@@ -45,7 +51,7 @@ export default function Account() {
           <i className="bi bi-credit-card"></i>
           {user.card}
         </p>
-        <button>
+        <button onClick={singOut}>
           Sign Out<i className="bi bi-box-arrow-left"></i>
         </button>
       </div>

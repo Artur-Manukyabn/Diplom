@@ -1,5 +1,10 @@
 @import "../SCSS/mixin";
 
+
+.scrolled{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0) 15%, rgba(0, 0, 0, 0.25) 100%);
+  backdrop-filter: blur(10px);
+}
 header {
   z-index: 999;
   top: 0;
@@ -8,10 +13,11 @@ header {
   max-width: 1440px;
   background-color: #3d3d3d;
   height: 60px;
-  @include dFlex(row,space-between,center);
+  @include dFlex(row, space-between, center);
   padding: 0.4em 0.8em;
   border-radius: 18px;
   margin-top: 12px;
+  
   i {
     font-size: 26px;
   }
@@ -33,12 +39,17 @@ header {
       li {
         border-left: 3px solid rgb(71, 71, 71);
         padding: 0 15px;
-       i{
-        color: rgb(71, 71, 71);
-       }
+        i {
+          color: rgb(71, 71, 71);
+        }
+        &:nth-child(6){
+          &::before{
+            content: "";
+          }
+        }
         &:hover {
           background-color: rgb(71, 71, 71);
-          i{
+          i {
             color: #fff;
           }
           &:first-child {
@@ -65,10 +76,10 @@ header {
     border-radius: 16px;
     background-color: white;
     form {
-      @include dFlex(row,space-between,center);
+      @include dFlex(row, space-between, center);
       padding-left: 6px;
       padding-right: 6px;
-      
+
       button {
         border: none;
         background-color: inherit;
@@ -78,18 +89,18 @@ header {
           font-size: 32px;
         }
       }
-      input{
+      input {
         margin-top: 5px;
         height: 35px;
-        width:100%;
+        width: 100%;
         border: none;
         font-size: 18px;
         padding: 6px;
-        &:focus{
+        &:focus {
           outline: none;
           border: 0;
         }
-        &::placeholder{
+        &::placeholder {
           font-size: 18px;
           color: rgb(95, 95, 95);
         }

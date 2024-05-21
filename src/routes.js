@@ -2,9 +2,10 @@ const ROUTES = {
   HOME: "/",
   ACCOUNT: "account",
   CATALOG: "catalog/:type",
+  SINGLEPRODUCT : "catalog/:type/:id",
   SETTINGS: "settings",
   ABOUT: "about",
-  SingleProduct : "catalog/:type/:id"
+  LOGIN: "login",
 };
 
 export default ROUTES;
