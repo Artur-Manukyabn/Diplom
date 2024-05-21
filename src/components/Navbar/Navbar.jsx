@@ -11,7 +11,6 @@ export default function Navbar() {
   const [cartActive, setCartActive] = useState(false);
   const [locationActive, setLocationActive] = useState(false);
   const [userID, setUserID] = useState(null);
-  
   useEffect(() => {
     setUserID(JSON.parse(localStorage.getItem("user")));
   }, []);
@@ -48,13 +47,22 @@ export default function Navbar() {
                 <i className="bi bi-house-fill"></i>
               </Link>
             </li>
-            <li
-              onClick={() => {
-                setCartActive(!cartActive);
-              }}
-            >
-              <i className="bi bi-cart4"></i>
-            </li>
+            {userID !== null ? (
+              <li
+                onClick={() => {
+                  setCartActive(!cartActive);
+                }}
+              >
+                <i className="bi bi-cart4"></i>
+              </li>
+            ) : (
+              <li>
+                <Link to={ROUTES.LOGIN}>
+                  <i className="bi bi-cart4"></i>
+                </Link>
+              </li>
+            )}
+
             <li>
               <Link to={ROUTES.ABOUT}>
                 <i className="bi bi-info-circle-fill"></i>
@@ -65,22 +73,30 @@ export default function Navbar() {
                 <i className="bi bi-gear-fill"></i>
               </Link>
             </li>
-            <li
-              onClick={() => {
-                setLocationActive(!locationActive);
-              }}
-            >
-              <i className="bi bi-geo-alt-fill"></i>
-            </li>
+            {userID !== null ? (
+              <li
+                onClick={() => {
+                  setLocationActive(!locationActive);
+                }}
+              >
+                <i className="bi bi-geo-alt-fill"></i>
+              </li>
+            ) : (
+              <li>
+                <Link to={ROUTES.LOGIN}>
+                  <i className="bi bi-geo-alt-fill"></i>
+                </Link>
+              </li>
+            )}
             <li>
-                  <Link to={userID ? ROUTES.ACCOUNT: ROUTES.LOGIN}>
-                    <i className="bi bi-person-fill"></i>
-                  </Link>
+              <Link to={userID ? ROUTES.ACCOUNT : ROUTES.LOGIN}>
+                <i className="bi bi-person-fill"></i>
+              </Link>
             </li>
           </ul>
         </nav>
       </header>
-      {cartActive ? <Cart /> : null}
+      {cartActive ? <Cart  /> : null}
       {locationActive ? <LocationSelect /> : null}
     </>
   );

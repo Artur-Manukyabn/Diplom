@@ -1,4 +1,79 @@
-.Cart{
-    width: 300px;
-    // height: 100Vh;
+.Cart {
+  position: fixed;
+  z-index: 3;
+  right: 3%;
+  top: 10%;
+  width: 500px;
+  height: 600px;
+  border-radius: 16px;
+  color: aliceblue;
+  overflow: auto;
+  background-color: rgba($color: #6c6c6c, $alpha: 0.5);
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 1em;
+  h1{
+    text-align: center;
+    &::after{
+        content: "";
+        height: 2px;
+        background-color: #fff;
+        border:1px solid white;
+        display: block;
+        
+    }
+  }
+  &__totalPrice{
+    margin-top: auto;
+  }
+  &__text {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    h3 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+  &__item {
+    border: 2px solid white;
+    border-radius: 16px;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    button {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      background-color: inherit;
+      color: aliceblue;
+      width: 50px;
+      height: 50px;
+      transition: 0.8s;
+      border: 0;
+      &:hover {
+        transform: rotate(30deg);
+        color: red;
+        cursor: pointer;
+      }
+      i {
+        font-size: 40px;
+      }
+    }
+    img {
+      max-width: 200px;
+      border-radius: 16px;
+    }
+    h3 {
+      width: 90%;
+
+    }
+  }
 }

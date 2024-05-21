@@ -73,6 +73,7 @@ export default function Account() {
                   className="Account__image"
                   src={prod.image}
                   alt={prod.type}
+                  key={prod.id}
                 />
               );
             })}
@@ -88,6 +89,7 @@ export default function Account() {
                 className="Account__image"
                 src={prod.image}
                 alt={prod.type}
+                key={prod.id}
               />
             );
           })}

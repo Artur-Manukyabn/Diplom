@@ -34,9 +34,8 @@ export default function Login() {
             SIGN UP
           </h2>
         </div>
-        <RegistrForm active={form} /> 
+        <RegistrForm active={form} />
         <LogInForm active={form} />
-
       </div>
     </div>
   );
