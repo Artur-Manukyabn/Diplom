@@ -1,44 +1,68 @@
 import React, { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
 import axios from "axios";
+import { Link, useParams } from "react-router-dom";
+import ReactPaginate from "react-paginate";
+import { cutText } from "../../../helpers/cutText";
 import "@smastrom/react-rating/style.css";
 import { Rating } from "@smastrom/react-rating";
-import { cutText } from "../../../helpers/cutText";
 import "./Catalog.scss";
 
 export default function Catalog() {
   const { type } = useParams();
   const [filteredInstrument, setFilteredInstrument] = useState([]);
   const [user, setUser] = useState([]);
-  const userID = localStorage.getItem('user')
+  const [instruments, setInstruments] = useState([]);
+  const userID = localStorage.getItem("user");
+  const [page, setPage] = useState(1);
+  const [perPage, setPerPage] = useState(6);
+
+  function paginate(array, pageSize, pageNumber) {
+    return array?.slice((pageNumber - 1) * pageSize, pageNumber * pageSize);
+  }
   useEffect(() => {
     axios("http://localhost:3000/musical_instruments").then((res) => {
       const response = res.data.filter((item) => {
-        return item.type.toLowerCase().includes(type.toLowerCase());
+        return item.type?.toLowerCase().includes(type.toLowerCase());
       });
       setFilteredInstrument(response);
     });
     axios(`http://localhost:3000/users/${userID}`).then((res) => {
       setUser(res.data);
     });
-  }, [user]);
+  }, []);
+
+  useEffect(() => {
+    setInstruments(paginate(filteredInstrument, perPage, page));
+  }, [filteredInstrument]);
+
+  useEffect(() => {
+    setInstruments(paginate(filteredInstrument, perPage, page));
+  }, [perPage, page]);
 
   const addCart = (id) => {
     const newCart = [...user.cart, id];
     if (user.cart.includes(id)) {
-      return
+      return;
     }
     axios
-      .patch(`http://localhost:3000/users/${userID}`, {...user,cart:newCart}).then(res=>{ 
-      console.log(res.data);  
-      setUser(res.data);})
+      .patch(`http://localhost:3000/users/${userID}`, {
+        ...user,
+        cart: newCart,
+      })
+      .then((res) => {
+        setUser(res.data);
+      });
+  };
+
+  const handlePageClick = ({ selected }) => {
+    setPage(selected + 1);
   };
 
   return (
     <div className="Catalog">
       <h1>{type}s</h1>
       <div className="Catalog__cards">
-        {filteredInstrument.map((elem) => {
+        {instruments?.map((elem) => {
           return (
             <div key={elem.id} className="Catalog__card">
               <img src={elem.image} alt={elem.title} />
@@ -59,6 +83,15 @@ export default function Catalog() {
           );
         })}
       </div>
+      <ReactPaginate
+        nextLabel={<i className="bi bi-arrow-right-circle"></i>}
+        onPageChange={handlePageClick}
+        pageRangeDisplayed={5}
+        pageCount={Math.ceil(filteredInstrument.length / perPage)}
+        previousLabel={<i className="bi bi-arrow-left-circle"></i>}
+        renderOnZeroPageCount={null}
+        className="Catalog__pagination"
+      />
     </div>
   );
 }

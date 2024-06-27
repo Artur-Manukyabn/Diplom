@@ -8,6 +8,7 @@
   flex-direction: row;
   &__personeCard {
     background-color: #333;
+    padding: 1em;
     border-radius: 16px;
     gap: 16px;
     width: 300px;
@@ -60,7 +61,7 @@
         color: white;
         background-color: #333;
         border: #fff 2px solid;
-        scale: 1.05;
+        scale: 1.05; 
       }
     }
   }
@@ -75,6 +76,17 @@
     padding: 4px 8px;
     border: 2px solid #333;
     cursor: pointer;
+    transition: .4s;
+    
+    &:hover{
+      background-color: #333;
+      transform: scale(1.1);
+      border: #fff solid 2px;
+      &::before{
+        color: white;
+       
+      }
+    }
   }
   &__purchases {
     width: 70%;
@@ -83,6 +95,8 @@
     margin-right: 100px;
     display: flex;
     flex-direction: column;
+    border-radius: 16px;
+    padding: 1em 2em 1em 1em; 
     h2 {
       background-color: #fff;
       width: 300px;
@@ -111,13 +125,21 @@
     }
   }
   &__image {
-    object-fit: cover;
-    width: 160px;
+    object-fit: contain;
+    width: 160px !important;
     height: 160px;
     border: 1px solid black;
     padding: 4px 8px;
     margin-top: 20px;
-    margin-left: 20px;
     border-radius: 16px;
+    transition: .4s;
+    &:nth-child(1){
+      margin-left: 20px;
+    }
+    &:hover{
+      scale: 1.1;
+    }
   }
 }
+
+

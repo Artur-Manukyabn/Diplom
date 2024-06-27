@@ -2,12 +2,19 @@ import axios from "axios";
 import React, { useState, useEffect } from "react";
 import "./Account.scss";
 import Slider from "react-slick";
+import "react-responsive-modal/styles.css";
+import { Modal } from "react-responsive-modal";
+import ChangInfoForm from "../../Forms/ChangInfoForm/ChangInfoForm";
 
 export default function Account() {
   const [user, setUser] = useState([]);
   const [products, setProducts] = useState([]);
   const [favorites, setFavorites] = useState([]);
   const [history, setHistory] = useState([]);
+  const [open, setOpen] = useState(false);
+  const onOpenModal = () => setOpen(true);
+  const onCloseModal = () => setOpen(false);
+
   useEffect(() => {
     const userID = localStorage.getItem("user");
     axios(`http://localhost:3000/users/${userID}`).then((res) => {
@@ -17,7 +24,6 @@ export default function Account() {
       setProducts(res.data);
     });
   }, []);
-
   useEffect(() => {
     setFavorites(
       products.filter((prod) => {
@@ -43,12 +49,18 @@ export default function Account() {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 3,
-    arrows:false
+    arrows: true,
   };
   return (
     <div className="Account">
+      <Modal open={open} onClose={onCloseModal} center>
+        <ChangInfoForm />
+      </Modal>
       <div className="Account__personeCard">
-        <i className="bi bi-pencil-fill Account__edit"></i>
+        <i
+          className="bi bi-pencil-fill Account__edit"
+          onClick={onOpenModal}
+        ></i>
         <img src={user.image} alt="account image" />
         <h2>
           <i className="bi bi-person-fill"></i>
@@ -64,7 +76,6 @@ export default function Account() {
       </div>
       <div className="Account__purchases">
         <h2>Order history</h2>
-
         <div className="Account__orderHistory">
           <Slider {...settings}>
             {history.map((prod) => {
@@ -78,21 +89,20 @@ export default function Account() {
               );
             })}
           </Slider>
-          
         </div>
         <h2>Favorites</h2>
         <div className="Account__favorites">
           <Slider {...settings}>
-          {favorites.map((prod) => {
-            return (
-              <img
-                className="Account__image"
-                src={prod.image}
-                alt={prod.type}
-                key={prod.id}
-              />
-            );
-          })}
+            {favorites.map((prod) => {
+              return (
+                <img
+                  className="Account__image"
+                  src={prod.image}
+                  alt={prod.type}
+                  key={prod.id}
+                />
+              );
+            })}
           </Slider>
         </div>
       </div>

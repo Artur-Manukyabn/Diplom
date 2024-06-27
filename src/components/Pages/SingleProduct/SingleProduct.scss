@@ -1,3 +1,63 @@
 .SingleProduct{
-    margin-top: 150px;
+    max-width: 1440px;
+    padding-top: 90px;
+    height: 120vh;
+    &__title{
+        padding: 1em;
+        h3{
+            font-size: 22px;
+        }
+    }
+    &__topSide{
+        display:flex;
+        flex-direction: row;
+    }
+    &__card{
+        position: relative;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+        width: 900px;
+        margin: 0 auto;
+        padding: 1em;
+        display:flex;
+        flex-direction: column;
+        border: 1px solid black;
+        border-radius: 16px;
+        color: white;
+        background-color: #333;
+        h1{
+            margin-bottom: 10px;
+        }
+        button {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            background-color: rgba(0, 0, 0, 0);
+            color: aliceblue;
+            width: 50px;
+            height: 50px;
+            transition: 0.8s;
+            border: 0;
+            &:hover {
+              transform: rotate(30deg);
+              color: red;
+              cursor: pointer;
+            }
+            i {
+              font-size: 40px;
+            }
+        }
+    }
+    &__ratingStars{
+        align-self: flex-start;
+    }
+    &__text{
+        padding: 1em;
+        span{
+            font-weight: 900;
+        }
+    }
+    img{
+        height: 400px;
+        margin-bottom: 16px;
+    }
 }

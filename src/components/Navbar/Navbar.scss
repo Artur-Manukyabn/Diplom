@@ -1,8 +1,11 @@
 @import "../SCSS/mixin";
 
-
-.scrolled{
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0) 15%, rgba(0, 0, 0, 0.25) 100%);
+.scrolled {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0) 15%,
+    rgba(0, 0, 0, 0.25) 100%
+  );
   backdrop-filter: blur(10px);
 }
 header {
@@ -17,7 +20,7 @@ header {
   padding: 0.4em 0.8em;
   border-radius: 18px;
   margin-top: 12px;
-  
+
   i {
     font-size: 26px;
   }
@@ -25,9 +28,11 @@ header {
     display: flex;
     align-items: center;
     margin-left: 15px;
+    display: flex;
+    height: 100%;
     i {
-      font-size: 40px;
-      padding: 4px 8px;
+      font-size: 36px;
+      margin-top: 5px;
     }
   }
   nav {
@@ -41,11 +46,6 @@ header {
         padding: 0 15px;
         i {
           color: rgb(71, 71, 71);
-        }
-        &:nth-child(6){
-          &::before{
-            content: "";
-          }
         }
         &:hover {
           background-color: rgb(71, 71, 71);
@@ -105,6 +105,16 @@ header {
           color: rgb(95, 95, 95);
         }
       }
+    }
+  }
+}
+
+li.active {
+  box-shadow:rgba(65, 9, 72, 0.35) 0px 5px 15px ; 
+  a {
+    i {
+      color: rgb(131, 9, 9);
+      text-shadow: rgba(65, 9, 72, 0.35) 0px 5px 15px;
     }
   }
 }

@@ -5,280 +5,657 @@
       "name": "Rogue RR100 Rocketeer Electric Guitar Wine Burst",
       "price": "110$",
       "description": "Rogue Guitars is proud to introduce the Rocketeer RR100 electric guitar, available exclusively at Guitar Center. The Rocketeer RR100 is a lightweight, double-cutaway electric guitar built for maximum comfort, playability and tonal versatility. Its contoured paulownia body and ultra-thin maple neck allow for quick, effortless soloing up and down the 22-fret fingerboard. The humbucker/dual single-coil pickup configuration with a 5-way switch provides a wide range of tones from rock to blues to jazz. Unleash your creativity with the vintage-style tremolo bridge and whammy bar while die-cast tuners ensure your tone remains true. The Rocketeer RR100 is the perfect guitar for players seeking a mix of comfort, playability and tonal variety.",
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/430928000003000-02-600x600.jpg",
+      "image": "https://media.guitarcenter.com/is/image/MMGS7/430928000003000-00-720x720.jpg",
       "type": "Electric Guitar",
-      "rating": 4.5
+      "rating": 2
     },
     {
       "id": "2",
       "name": "Fender Stratocaster Electric Guitar",
       "price": "1200$",
       "description": "The Fender Stratocaster needs no introduction. An iconic instrument used by legends across genres, this electric guitar boasts a classic double-cutaway design, three single-coil pickups, and a five-way pickup selector switch. Its smooth maple neck and alder body ensure exceptional playability and tone. From shimmering cleans to searing leads, the Fender Stratocaster delivers unmatched versatility and timeless style.",
-      "image": "https://massstreetmusic.com/cdn/shop/products/3ee2f27014c1aab7a020c5f35bd14f0f.jpg?v=1609796437",
+      "image": "https://m.media-amazon.com/images/I/61Z01+68f8L.jpg",
       "type": "Electric Guitar",
-      "rating": 4
+      "rating": 1
     },
     {
       "id": "3",
       "name": "Yamaha FG800 Acoustic Guitar",
       "price": "200$",
       "description": "The Yamaha FG800 is a benchmark acoustic guitar known for its exceptional value and quality craftsmanship. Featuring a solid spruce top and mahogany back and sides, this dreadnought delivers rich, resonant tones with clarity and projection. Whether you're strumming chords or fingerpicking melodies, the Yamaha FG800 offers a balanced sound suitable for players of all levels.",
-      "image": "https://ru.yamaha.com/ru/files/Image-Index_FG840_1080x1080_dfcb73d14575cbfafa824bb96bde165d.jpg?impolicy=resize&imwid=735&imhei=735",
+      "image": "https://uk.yamaha.com/en/files/Image-Index_FG840_1080x1080_90d25e8f72b56fa7f9d03667d0be2ef4.jpg?impolicy=resize&imwid=735&imhei=735",
       "type": "Acoustic Guitar",
-      "rating": 5
+      "rating": 4
     },
     {
       "id": "4",
-      "name": "Roland FP-30 Digital Piano",
-      "price": "700$",
-      "description": "The Roland FP-30 is a compact digital piano packed with premium features for aspiring pianists. Boasting Roland's renowned SuperNATURAL Piano sound engine, this 88-key instrument faithfully reproduces the rich, expressive tones of an acoustic grand piano. With built-in Bluetooth connectivity, USB support, and a variety of onboard sounds and rhythms, the FP-30 is perfect for practice, performance, and recording.",
-      "image": "https://example.com/roland_fp30.jpg",
-      "type": "Digital Piano",
-      "rating": 5
+      "name": "Gibson Les Paul Standard '50s Electric Guitar",
+      "price": "2499$",
+      "description": "The Gibson Les Paul Standard '50s electric guitar pays tribute to the golden era of rock 'n' roll. With its classic single-cutaway mahogany body, maple top, and dual PAF-style humbucking pickups, this guitar delivers rich, vintage tone with exceptional sustain and clarity. The '50s profile mahogany neck offers comfortable playability for rhythm and lead players alike. From warm blues to gritty rock, the Les Paul Standard '50s is a timeless instrument built for the modern stage.",
+      "image": "https://images.ctfassets.net/m8onsx4mm13s/11yLD2nnJYanRYcEHIvbu8/d7af425bee99e2bf7b9a40b747d3818f/__static.gibson.com_product-images_USA_USAUBC849_Heritage_Cherry_Sunburst_LPS519HSNH1_1.jpg",
+      "type": "Electric Guitar",
+      "rating": 6
     },
     {
       "id": "5",
-      "name": "Gibson Les Paul Standard Electric Guitar",
-      "price": "2500$",
-      "description": "The Gibson Les Paul Standard is a legendary electric guitar renowned for its iconic sound and timeless design. Featuring a mahogany body with a carved maple top, this instrument delivers rich, warm tones with plenty of sustain. Equipped with Gibson's Burstbucker pickups and hand-wired electronics, the Les Paul Standard offers unparalleled clarity and versatility. Whether you're playing blues, rock, or metal, this guitar excels in any musical setting.",
-      "image": "https://static.gibson.com/product-images/USA/USA72L522/Ebony/LPS5P00EBNH1_front.jpg",
-      "type": "Electric Guitar",
-      "rating": 3
+      "name": "Stradivarius Violin",
+      "price": "5000$",
+      "description": "The Stradivarius violin is renowned for its exceptional craftsmanship and unparalleled tone. Handcrafted by master luthiers, this violin features a carefully selected spruce top, maple back and sides, and ebony fittings. Its rich, resonant sound and responsive playability make it the instrument of choice for soloists and orchestral musicians alike. Experience the timeless beauty and unmatched quality of the Stradivarius violin.",
+      "image": "https://static01.nyt.com/images/2016/12/21/science/20TB-Violin1/20TB-Violin1-superJumbo.jpg",
+      "type": "Violin",
+      "rating": 4
     },
     {
       "id": "6",
-      "name": "Martin D-28 Acoustic Guitar",
-      "price": "3000$",
-      "description": "The Martin D-28 is a true classic among acoustic guitars, beloved for its powerful projection and rich, full-bodied tone. Featuring a solid Sitka spruce top and East Indian rosewood back and sides, this dreadnought guitar produces a balanced sound with exceptional clarity and depth. With its timeless design and impeccable craftsmanship, the Martin D-28 is the choice of discerning musicians worldwide.",
-      "image": "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_55/556270/18314543_800.jpg",
-      "type": "Acoustic Guitar",
-      "rating": 4
+      "name": "DW Collector's Series Maple Drum Kit",
+      "price": "6000$",
+      "description": "The DW Collector's Series Maple drum kit is the ultimate choice for professional drummers seeking unparalleled sound and craftsmanship. Handcrafted in the USA, this kit features North American hard rock maple shells, precision-cut bearing edges, and DW's patented suspension tom mounting system. Whether you're playing jazz, rock, or metal, the DW Collector's Series delivers unmatched tone, resonance, and projection. Elevate your performance with the precision and power of DW drums.",
+      "image": "https://www.drumland.com/cdn/shop/products/s32016_1024x1024.jpg?v=1654272064",
+      "type": "Drum",
+      "rating": 2
     },
     {
       "id": "7",
-      "name": "Fender Jazz Bass",
-      "price": "1800$",
-      "description": "The Fender Jazz Bass is an iconic instrument that has been a staple in the world of bass guitars since its introduction in 1960. Featuring a sleek offset waist design, dual single-coil pickups, and a versatile tone control circuit, this bass offers a wide range of tones suitable for any musical genre. Whether you're laying down a funky groove or holding down the low end in a rock band, the Fender Jazz Bass delivers the legendary sound and playability that have made it a favorite among bassists for decades.",
-      "image": "https://sc1.musik-produktiv.com/pic-010124531l/fender-american-professional-ii-jazz-bass-rw-3ts.jpg",
-      "type": "Bass Guitar",
-      "rating": 3
+      "name": "Steinway Model D Concert Grand Piano",
+      "price": "150000$",
+      "description": "The Steinway Model D Concert Grand piano is the pinnacle of piano craftsmanship and performance. Handcrafted in New York, this instrument features a meticulously selected spruce soundboard, hand-wound strings, and premium ebony and ivory keytops. Its rich, dynamic sound and responsive touch make it the instrument of choice for concert halls, recording studios, and prestigious venues worldwide. Experience the legendary sound and artistry of the Steinway Model D Concert Grand piano.",
+      "image": "https://eu.steinway.com/fileadmin/user_upload/Fluegel_D_Black_03.jpg",
+      "type": "Piano",
+      "rating": 5
     },
     {
       "id": "8",
-      "name": "Korg Minilogue XD Polyphonic Analog Synthesizer",
-      "price": "700$",
-      "description": "The Korg Minilogue XD is a powerful polyphonic analog synthesizer that combines classic analog sound with modern digital technology. Featuring a 37-note slim-key keyboard and four-voice polyphony, this synthesizer offers a wide range of sonic possibilities for studio and stage. With its versatile oscillator section, customizable digital effects, and intuitive interface, the Minilogue XD is perfect for creating lush pads, searing leads, and intricate soundscapes.",
-      "image": "https://cdn.korg.com/us/products/upload/baecaf881b2d5620a22801ccdd1df297_sp.png",
-      "type": "Synthesizer",
-      "rating": 5
+      "name": "Muramatsu EX Professional Flute",
+      "price": "8000$",
+      "description": "The Muramatsu EX Professional flute is revered by flutists worldwide for its exceptional tone, response, and craftsmanship. Handmade in Japan, this flute features a solid silver headjoint, body, and footjoint for a warm, resonant sound with excellent projection and control. Its precise mechanism and ergonomic design ensure effortless playability across all registers. Whether you're a soloist, orchestral musician, or educator, the Muramatsu EX Professional flute sets the standard for excellence.",
+      "image": "https://www.fluteworld.com/wp-content/uploads/2020/03/Muramatsu-EX-3-540x540.jpg",
+      "type": "Flute",
+      "rating": 4
     },
     {
       "id": "9",
-      "name": "Pearl Export Series Drum Kit",
-      "price": "1000$",
-      "description": "The Pearl Export Series is one of the most popular drum kits in the world, known for its exceptional sound quality, durability, and value. Featuring 6-ply poplar/mahogany shells, pro-level hardware, and Remo drum heads, this kit delivers a punchy, balanced sound with plenty of projection. Whether you're a beginner or a seasoned pro, the Pearl Export Series provides the performance and reliability you need to take your drumming to the next level.",
-      "image": "https://cdn.mos.cms.futurecdn.net/56f1ec9b3d8115bf5548016475bd9f7d.jpg",
-      "type": "Drum Kit",
-      "rating": 5
+      "name": "Korg Kronos 88-Key Synthesizer Workstation",
+      "price": "3500$",
+      "description": "The Korg Kronos 88-key synthesizer workstation is a powerhouse of sound design and performance capabilities. Featuring nine distinct sound engines, including realistic piano, vintage analog, and cutting-edge synthesis, the Kronos offers unparalleled sonic versatility for studio and stage. Its intuitive touchscreen interface, comprehensive effects processing, and robust performance features make it the ultimate instrument for musicians, producers, and sound designers. Unlock your creativity with the Korg Kronos.",
+      "image": "https://cdn.korg.com/us/products/upload/56e30ebd24c1d2f376d118fb4fe76515.jpg",
+      "type": "Synthesizer",
+      "rating": 4
     },
     {
       "id": "10",
-      "name": "Taylor 814ce Acoustic-Electric Guitar",
-      "price": "3500$",
-      "description": "The Taylor 814ce is a premium acoustic-electric guitar renowned for its exceptional tone, playability, and craftsmanship. Featuring a solid Sitka spruce top and Indian rosewood back and sides, this Grand Auditorium guitar produces a rich, balanced sound with sparkling highs and deep lows. Equipped with Taylor's groundbreaking Expression System 2 electronics, the 814ce delivers natural-sounding amplified tones with unparalleled clarity and detail.",
-      "image": "https://jp.taylorguitars.com/sites/default/files/styles/guitar_mobile_upright/public/2022-02-08/814ce-Front.png?itok=j3_kTbXa",
-      "type": "Acoustic-Electric Guitar",
-      "rating": 4
+      "name": "Taylor 814ce Grand Auditorium Acoustic-Electric Guitar",
+      "price": "3499$",
+      "description": "The Taylor 814ce Grand Auditorium acoustic-electric guitar represents the pinnacle of Taylor craftsmanship and innovation. Featuring a solid Sitka spruce top and Indian rosewood back and sides, this guitar delivers a rich, balanced tone with exceptional clarity and projection. The Grand Auditorium body shape offers versatility for strumming, fingerpicking, and solo performance, while Taylor's Expression System 2 electronics ensure natural sound reproduction when plugged in. Elevate your playing with the Taylor 814ce.",
+      "image": "https://www.taylorguitars.com/sites/default/files/styles/guitar_mobile_upright/public/2022-02-08/814ce-Front.png?itok=j3_kTbXa",
+      "type": "Acoustic Guitar",
+      "rating": 2
     },
     {
       "id": "11",
-      "name": "Yamaha YAS-62III Professional Alto Saxophone",
-      "price": "2500$",
-      "description": "The Yamaha YAS-62III is a professional alto saxophone known for its exceptional tone, response, and intonation. Handcrafted in Japan, this saxophone features a one-piece bell design, Annealed body, and key cups, and Yamaha's proprietary neck design for superior resonance and projection. Whether you're performing in a jazz club or a concert hall, the YAS-62III delivers the performance and reliability that professional saxophonists demand.",
-      "image": "https://usa.yamaha.com/files/0813D7CE42504A018FE28E02C186B3F0_12073_89ed3178ca6329813d18326fb87de9e8.jpg?impolicy=resize&imwid=2801&imhei=6385",
-      "type": "Saxophone",
-      "rating": 4
+      "name": "Amati Stradivari Violin",
+      "price": "1000000$",
+      "description": "The Amati Stradivari violin is a rare masterpiece crafted by the legendary Antonio Stradivari. With its exquisite craftsmanship, exceptional tone, and historical significance, this violin is a coveted treasure for collectors and musicians alike. Handcrafted from carefully selected tonewoods and adorned with intricate inlays and varnish, the Amati Stradivari embodies the pinnacle of violin making artistry. Own a piece of history with the Amati Stradivari violin.",
+      "image": "https://ar.culture.ru/attachments/attachment/preview/637f449e87985432982d3317-preview.jpg",
+      "type": "Violin",
+      "rating": 5
     },
     {
       "id": "12",
-      "name": "DW Collector's Series Drum Kit",
-      "price": "5000$",
-      "description": "The DW Collector's Series is the pinnacle of drum craftsmanship, handcrafted in California using the finest materials and construction techniques. Featuring North American maple shells, True-Pitch tuning, and DW's patented STM (Suspension Tom Mounts), this kit offers unparalleled sound quality, resonance, and tuning stability. With customizable finishes and hardware options, the DW Collector's Series allows drummers to create their dream kit tailored to their unique style and preferences.",
-      "image": "https://m.media-amazon.com/images/I/61ARfn45Y+L.jpg",
-      "type": "Drum Kit",
-      "rating": 3.5
+      "name": "Pearl Masterworks Drum Kit",
+      "price": "10000$",
+      "description": "The Pearl Masterworks drum kit is a custom-crafted masterpiece designed for discerning drummers who demand the utmost in sound quality and performance. Handcrafted in Japan by Pearl's master craftsmen, this kit features maple, birch, or mahogany shells meticulously constructed to your specifications. With Pearl's superior hardware and innovative shell technology, the Masterworks kit delivers unparalleled tone, resonance, and dynamic range. Experience the pinnacle of drumming excellence with Pearl Masterworks.",
+      "image": "https://media.sweetwater.com/m/products/image/5b652c5cf4kAqZW5c4F7dueH0ThJPdL7TyoCmScE.jpg?v=5b652c5cf4bbfe5c",
+      "type": "Drum",
+      "rating": 5
     },
     {
       "id": "13",
-      "name": "Steinway & Sons Model D Concert Grand Piano",
-      "price": "150000$",
-      "description": "The Steinway & Sons Model D is the gold standard of concert grand pianos, revered by pianists and audiences alike for its unmatched beauty, power, and responsiveness. Handcrafted in New York City using the finest materials and craftsmanship, this piano features a massive soundboard, premium spruce soundboard, and patented Octagrip™ pinblock for unparalleled sound quality, projection, and tuning stability. Whether you're performing on the world's most prestigious stages or in the comfort of your own home, the Steinway Model D delivers a concert-quality experience that transcends expectations.",
-      "image": "https://eu.steinway.com/fileadmin/user_upload/Fluegel_D_Black_03.jpg",
-      "type": "Concert Grand Piano",
+      "name": "Bösendorfer Imperial Grand Piano",
+      "price": "300000$",
+      "description": "The Bösendorfer Imperial Grand piano is renowned for its unparalleled sound and exquisite craftsmanship. Handcrafted in Austria, this instrument features the legendary Bösendorfer soundboard, Vienna action, and Imperial concert grand scale. With its resonant bass and sparkling treble, the Imperial Grand delivers a dynamic range and tonal palette unmatched by any other piano. Experience the pinnacle of piano artistry with the Bösendorfer Imperial Grand.",
+      "image": "https://www.coachhousepianos.co.uk/wp-content/uploads/2022/07/bosendorfer_standard_290_imperial_1_20100724_17015890701.jpg",
+      "type": "Piano",
       "rating": 4
     },
     {
       "id": "14",
-      "name": "PRS Custom 24 Electric Guitar",
-      "price": "4000$",
-      "description": "The PRS Custom 24 is a flagship electric guitar known for its stunning looks, exceptional playability, and versatile tone. Featuring a carved figured maple top, mahogany back, and PRS's patented Gen III tremolo bridge, this guitar delivers a perfect balance of warmth, clarity, and sustain. Equipped with PRS 85/15 pickups and a versatile switching system, the Custom 24 offers a wide range of tones suitable for any musical style. Whether you're playing blues, rock, or metal, the PRS Custom 24 is sure to inspire your creativity and elevate your performance.",
-      "image": "https://www.melodyhousemi.com/assets/library/PRS/CU44TU-1.jpg",
-      "type": "Electric Guitar",
-      "rating": 3
+      "name": "Powell Handmade Flute",
+      "price": "12000$",
+      "description": "The Powell handmade flute is a testament to the artistry and craftsmanship of Powell Flutes. Handcrafted in the USA, this flute features a sterling silver headjoint, body, and footjoint, meticulously crafted to exacting standards. With its rich, resonant tone and responsive playability, the Powell flute is the instrument of choice for professional flutists worldwide. Experience the precision and beauty of Powell craftsmanship.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI6U6HR1zE86mQVuj94FHDllcpwBhXG6i265uc7n8Jdg&s",
+      "type": "Flute",
+      "rating": 4
     },
     {
       "id": "15",
-      "name": "Sennheiser HD 800 S Reference Headphones",
-      "price": "1500$",
-      "description": "The Sennheiser HD 800 S is a reference-class headphone renowned for its unparalleled sound quality, comfort, and craftsmanship. Featuring Sennheiser's patented Ring Radiator transducers and innovative earcup design, these headphones deliver a natural and transparent soundstage with exceptional detail and clarity across the entire frequency spectrum. Whether you're mixing in the studio or enjoying high-fidelity music at home, the HD 800 S offers an immersive listening experience that redefines the boundaries of headphone technology.",
-      "image": "https://media.graphassets.com/ZuPeaggR5OCMwh9pZFOj",
-      "type": "Headphones",
+      "name": "Moog One Polyphonic Analog Synthesizer",
+      "price": "8000$",
+      "description": "The Moog One polyphonic analog synthesizer is a masterpiece of sound design and engineering. Featuring three discrete analog sound engines, each with its own filter and modulation section, the Moog One offers unparalleled sonic depth and complexity. With its expressive keyboard, extensive modulation options, and lush analog sound, the Moog One is the ultimate instrument for creating rich, immersive textures and evolving soundscapes. Explore new sonic territories with the Moog One.",
+      "image": "https://dt7v1i9vyp3mf.cloudfront.net/styles/news_large/s3/imagelibrary/M/MoogOne_01-zCCIOR6Lc3AJ_eyPJGVAE.TgoidpnnA0.jpg",
+      "type": "Synthesizer",
       "rating": 2
     },
     {
       "id": "16",
-      "name": "Gretsch G5420T Electromatic Hollow Body Guitar",
-      "price": "1000$",
-      "description": "The Gretsch G5420T is a classic hollow-body electric guitar beloved for its vintage vibe, smooth playability, and rich, warm tone. Featuring a single-cutaway design, Bigsby vibrato tailpiece, and dual 'Black Top' Filter'Tron pickups, this guitar delivers the distinctive Gretsch sound that has been a favorite among players for decades. Whether you're playing rockabilly, jazz, or blues, the G5420T offers the versatility and style to stand out on any stage.",
-      "image": "https://media.guitarcenter.com/is/image/MMGS7/L88823000003000-00-1600x1600.jpg",
+      "name": "PRS SE Custom 24 Electric Guitar",
+      "price": "899$",
+      "description": "The PRS SE Custom 24 electric guitar combines classic PRS design with modern versatility and affordability. Featuring a mahogany body with a maple top, a comfortable wide-thin maple neck, and dual humbucking pickups with coil-splitting capability, this guitar delivers a wide range of tones suitable for any musical style. Whether you're playing rhythm or lead, clean or distorted, the SE Custom 24 offers exceptional playability and tone at an accessible price point.",
+      "image": "https://shop.irvineartandmusic.com/cdn/shop/files/SECustom24BlackGoldBurst.jpg?v=1700624541",
       "type": "Electric Guitar",
-      "rating": 3
+      "rating": 4
     },
     {
       "id": "17",
-      "name": "Kawai MP11 Professional Stage Piano",
-      "price": "2500$",
-      "description": "The Kawai MP11 is a professional stage piano designed for the most demanding pianists and performers. Featuring Kawai's renowned Grand Feel wooden-key action, Harmonic Imaging XL sound technology, and premium concert grand piano samples, this instrument delivers an authentic playing experience with exceptional realism and expressiveness. Whether you're performing on stage or recording in the studio, the MP11 offers the performance and versatility you need to excel in any musical setting.",
-      "image": "https://kawaius.com/wp-content/uploads/photo-gallery/imported_from_media_libray/MP11-Gloss-Black.jpg?bwg=1698330364",
-      "type": "Stage Piano",
-      "rating": 4
+      "name": "Antonio Giuliani Etude Violin Outfit",
+      "price": "499$",
+      "description": "The Antonio Giuliani Etude violin outfit is an excellent choice for beginners and intermediate players seeking a high-quality instrument at an affordable price. Handcrafted from select tonewoods and finished with a beautiful oil varnish, this violin offers warm, resonant tones and responsive playability. The outfit includes a case, bow, and rosin, making it ideal for students and musicians on a budget.",
+      "image": "https://www.oosthavens.co.za/wp-content/uploads/2022/10/Giulini-SV1-Violin.jpg",
+      "type": "Violin",
+      "rating": 5
     },
     {
       "id": "18",
-      "name": "Ampeg SVT Classic Bass Amplifier",
-      "price": "2000$",
-      "description": "The Ampeg SVT Classic is a legendary bass amplifier renowned for its powerful sound, reliability, and iconic design. Featuring all-tube construction, 300 watts of pure bass power, and a classic flip-top design, this amp delivers the vintage tone and punch that have made it a favorite among bassists for decades. Whether you're playing in the studio or on stage, the SVT Classic provides the performance and versatility you need to cut through the mix and make a statement.",
-      "image": "https://media.sweetwater.com/m/products/image/69d717c3daf7XfPrpi3JYSpI8o7yQRPZZKUEvLbh.jpg?v=69d717c3daf71000",
-      "type": "Bass Amplifier",
-      "rating": 5
-    },
-    {
-      "id": "19",
-      "name": "Roland TD-17KVX V-Drums Electronic Drum Kit",
-      "price": "1500$",
-      "description": "The Roland TD-17KVX is an advanced electronic drum kit that offers professional sound quality, playability, and versatility. Featuring Roland's renowned TD-17 sound module, mesh-head pads, and advanced sensing technology, this kit delivers an authentic drumming experience with exceptional expressiveness and dynamic range. Whether you're practicing at home, recording in the studio, or performing on stage, the TD-17KVX provides the performance and flexibility you need to excel in any musical situation.",
-      "image": "https://m.media-amazon.com/images/I/81Ny2Kb3B3L.jpg",
-      "type": "Electronic Drum Kit",
-      "rating": 5
-    },
-    {
-      "id": "20",
-      "name": "Ibanez RG550 Electric Guitar",
-      "price": "900$",
-      "description": "The Ibanez RG550 is a classic electric guitar known for its sleek design, fast playability, and versatile tone. Featuring a lightweight basswood body, maple neck, and Ibanez's signature Edge tremolo bridge, this guitar offers exceptional stability and precision for shredding and dive-bombing alike. Equipped with Ibanez V7, S1, and V8 pickups, the RG550 delivers a wide range of tones suitable for any musical style. Whether you're playing metal, rock, or blues, the RG550 is built to handle the most demanding performances with ease.",
-      "image": "https://sc1.musik-produktiv.com/pic-010103112xl/ibanez-rg550-rf-genesis-collection.jpg",
-      "type": "Electric Guitar",
-      "rating": 5
-    },
-    {
-      "id": "21",
-      "name": "Gibson SG Standard Electric Guitar",
-      "price": "2000$",
-      "description": "The Gibson SG Standard is a legendary electric guitar known for its iconic design, powerful sound, and smooth playability. Featuring a mahogany body and neck, rosewood fingerboard, and dual humbucking pickups, this guitar delivers the classic SG tone that has been a favorite among rock guitarists for generations. Whether you're playing rhythm or lead, the SG Standard offers the versatility and performance you need to make your mark on stage or in the studio.",
-      "image": "https://www.bonnersmusic.co.uk/cdn/shop/products/preview_d7d17c7b-5d47-4e4b-939d-c893c30284fa_600x.jpg?v=1703750114",
-      "type": "Electric Guitar",
-      "rating": 4.5
-    },
-    {
-      "id": "22",
-      "name": "Casio Privia PX-770 Digital Piano",
-      "price": "800$",
-      "description": "The Casio Privia PX-770 is a stylish and compact digital piano designed for home use. Featuring Casio's renowned AiR sound engine and Tri-Sensor Scaled Hammer Action II keyboard, this instrument delivers an authentic grand piano experience with exceptional sound quality and playability. With its sleek cabinet design and built-in speaker system, the PX-770 blends seamlessly into any home decor while providing the performance and features you need to enjoy playing piano at any skill level.",
-      "image": "https://www.casio-europe.com/resource/images/emi/detail/px770_1.jpg",
-      "type": "Digital Piano",
+      "name": "Mapex Saturn Evolution Drum Kit",
+      "price": "2500$",
+      "description": "The Mapex Saturn Evolution drum kit combines classic tone with modern innovation for a versatile and powerful drumming experience. Featuring hybrid maple and walnut shells, SONIClear bearing edges, and SONIClear suspension mounts, this kit delivers enhanced resonance, sustain, and tuning stability. Whether you're performing live or recording in the studio, the Mapex Saturn Evolution offers professional-grade sound and performance.",
+      "image": "https://sc1.musik-produktiv.com/pic-010130882xxl/mapex-saturn-evolution-22-gun-metal-grey-studioease-shell-set.jpg",
+      "type": "Drum",
       "rating": 4
     },
     {
-      "id": "23",
-      "name": "Epiphone Casino Coupe Hollow Body Guitar",
-      "price": "600$",
-      "description": "The Epiphone Casino Coupe is a compact hollow-body electric guitar that delivers classic casino tone and style in a smaller package. Featuring a laminated maple body, mahogany neck, and dual P-90 pickups, this guitar offers a unique blend of warmth, clarity, and bite that is perfect for a wide range of musical styles. Whether you're playing jazz, blues, or rock, the Casino Coupe delivers the vintage vibe and versatile tone you need to stand out on stage or in the studio.",
-      "image": "https://rvb-img.reverb.com/image/upload/s--TYRHEL4p--/f_auto,t_large/v1605204812/hgjguje3rdkwd4ddkiow.jpg",
+      "id": "19",
+      "name": "Steinway Model B Grand Piano",
+      "price": "85000$",
+      "description": "The Steinway Model B grand piano is a classic choice for pianists seeking a balance of power, clarity, and elegance. Handcrafted in New York, this instrument features Steinway's patented Octagrip pinblock, Diaphragmatic soundboard, and Accelerated Action for unparalleled touch and response. Whether you're performing solo or with an ensemble, the Steinway Model B delivers a dynamic range and tonal richness that is unmatched by any other piano.",
+      "image": "https://eu.steinway.com/fileadmin/user_upload/Fluegel_B_Black_03.jpg",
+      "type": "Piano",
+      "rating": 1
+    },
+    {
+      "id": "20",
+      "name": "Altus 1807 Professional Flute",
+      "price": "10000$",
+      "description": "The Altus 1807 professional flute is crafted with precision and artistry to meet the demands of professional flutists. Handmade in Japan, this flute features a sterling silver body, headjoint, and mechanism for a warm, resonant tone with exceptional projection and control. Its ergonomic key design and precise mechanism ensure effortless playability across all registers, making it the ideal instrument for solo performance and orchestral settings.",
+      "image": "https://flutecenter.com/cdn/shop/files/altus_1807_1_bd3c2a0f-0ae5-48d3-a4c2-41173320e56a_900x.png?v=1715011956",
+      "type": "Flute",
+      "rating": 4
+    },
+    {
+      "id": "21",
+      "name": "Roland Jupiter-X Synthesizer",
+      "price": "2499$",
+      "description": "The Roland Jupiter-X synthesizer is a modern powerhouse of sound design and performance capabilities. Featuring Roland's advanced Zen-Core sound engine and SuperNATURAL technology, the Jupiter-X offers a wide range of authentic analog and digital sounds with unmatched expressiveness and realism. Its intuitive interface, premium keyboard action, and extensive performance features make it the ultimate instrument for stage and studio use. Unleash your creativity with the Roland Jupiter-X.",
+      "image": "https://dt7v1i9vyp3mf.cloudfront.net/styles/news_large/s3/imagelibrary/R/RolandJupiterX_01-yNWeTxzRId_t6xvErijW2JDBqMTLvgk6.jpg",
+      "type": "Synthesizer",
+      "rating": 2
+    },
+    {
+      "id": "22",
+      "name": "Gretsch G2622 Streamliner Center Block Double-Cut Electric Guitar",
+      "price": "549$",
+      "description": "The Gretsch G2622 Streamliner electric guitar offers vintage-inspired style and modern performance at an affordable price. Featuring a lightweight center block construction, dual Broad'Tron humbucking pickups, and a sleek double-cutaway design, this guitar delivers rich, resonant tones with exceptional clarity and sustain. Whether you're playing rockabilly, blues, or indie rock, the G2622 Streamliner offers versatile tone and effortless playability.",
+      "image": "https://images.musicstore.de/images/0960/gretsch-g2622-streamliner-center-block-double-cut-v-stoptail-fireburst_1_GIT0060615-000.jpg",
       "type": "Electric Guitar",
-      "rating": 3.5
+      "rating": 2
+    },
+    {
+      "id": "23",
+      "name": "Stentor Student II Violin Outfit",
+      "price": "189$",
+      "description": "The Stentor Student II violin outfit is a popular choice for beginners and students seeking a reliable instrument to start their musical journey. Handcrafted from solid tonewoods and finished with a traditional varnish, this violin offers warm, balanced tones and easy playability. The outfit includes a case, bow, and rosin, making it a convenient and affordable option for aspiring violinists.",
+      "image": "https://media.musicarts.com/is/image/MMGS7/1500-Student-II-Series-Violin-Outfit-4-4-Outfit/H75765000002000-00-1600x1600.jpg",
+      "type": "Violin",
+      "rating": 6
     },
     {
       "id": "24",
-      "name": "Taylor 214ce Deluxe Grand Auditorium Guitar",
-      "price": "1500$",
-      "description": "The Taylor 214ce Deluxe is a premium acoustic-electric guitar known for its exceptional tone, playability, and craftsmanship. Featuring a solid Sitka spruce top, layered rosewood back and sides, and Taylor's patented Expression System 2 electronics, this Grand Auditorium guitar delivers a rich, balanced sound with stunning clarity and projection. Whether you're strumming chords or fingerpicking melodies, the 214ce Deluxe offers the performance and versatility you need to excel in any musical setting.",
-      "image": "https://www.megamusiconline.com.au/wp-content/uploads/2022/02/TAYTG214CEKDLX-1-450x450.jpg",
-      "type": "Acoustic-Electric Guitar",
-      "rating": 3.5
+      "name": "Tama Starclassic Maple Drum Kit",
+      "price": "3999$",
+      "description": "The Tama Starclassic Maple drum kit is a professional-grade instrument designed for discerning drummers who demand superior sound and performance. Featuring all-maple shells, die-cast hoops, and Star-Cast mounting system, this kit delivers enhanced resonance, projection, and tuning stability. Whether you're on stage or in the studio, the Tama Starclassic Maple offers exceptional tone, response, and versatility.",
+      "image": "https://www.tama.com/common/product_artist_file/file/pen_STARCLASSIC_maple2022.png",
+      "type": "Drum",
+      "rating": 4
     },
     {
       "id": "25",
-      "name": "Roland Juno-DS88 Synthesizer",
-      "price": "1200$",
-      "description": "The Roland Juno-DS88 is a powerful synthesizer designed for stage and studio use. Featuring an 88-note weighted keyboard, high-quality sounds, and intuitive interface, this instrument offers a wide range of creative possibilities for musicians of all styles. With its extensive collection of onboard sounds, sample playback, and real-time controls, the Juno-DS88 is perfect for performing live, composing, and recording in any musical genre.",
-      "image": "https://www.jrrshop.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/r/o/roland_juno-ds88_4.jpg",
-      "type": "Synthesizer",
-      "rating": 3
+      "name": "Kawai GX-7 Grand Piano",
+      "price": "85000$",
+      "description": "The Kawai GX-7 grand piano is a masterpiece of Japanese craftsmanship and innovation. Handcrafted from the finest materials, this instrument features Kawai's exclusive Millennium III action, solid spruce soundboard, and extended key length for exceptional touch and tone. Whether you're a professional pianist or a discerning enthusiast, the Kawai GX-7 offers a luxurious playing experience with unmatched dynamic range and expressive power.",
+      "image": "https://kawaius.com/wp-content/uploads/2018/04/GX-7-Polished-Ebony.jpg",
+      "type": "Piano",
+      "rating": 4
     },
     {
       "id": "26",
-      "name": "Spector Euro4 LX Bass Guitar",
-      "price": "2500$",
-      "description": "The Spector Euro4 LX is a premium bass guitar known for its stunning looks, exceptional playability, and versatile tone. Featuring a lightweight European alder body, figured maple top, and Spector's signature NS curved body shape, this bass offers a perfect balance of comfort and style. Equipped with custom Bartolini pickups and active tone controls, the Euro4 LX delivers a wide range of tones suitable for any musical genre. Whether you're playing funk, jazz, or metal, this bass is sure to impress with its performance and craftsmanship.",
-      "image": "https://www.musamaailma.fi/media/catalog/product/cache/1e888a8bda8bef696b91ac06c2bffaa3/0/1/01-specltor-euro4-lx-pbng-1000px.jpg",
-      "type": "Bass Guitar",
-      "rating": 4.5
+      "name": "Yamaha YFL-677HCT Professional Flute",
+      "price": "3000$",
+      "description": "The Yamaha YFL-677HCT professional flute is designed for advanced flutists seeking superior tone, response, and playability. Handcrafted in Japan, this flute features a sterling silver headjoint, body, and footjoint with 14k gold-plated lip plate and riser for a warm, luxurious tone with excellent projection and control. Its precise mechanism and ergonomic key design ensure effortless playability across all registers, making it the ideal instrument for solo performance and ensemble playing.",
+      "image": "https://cdn11.bigcommerce.com/s-ourux4doxk/images/stencil/1280x1280/products/4765/10503/Yamaha_YFL-677HCT__13266.1691160328.jpg?c=1",
+      "type": "Flute",
+      "rating": 3
     },
     {
       "id": "27",
-      "name": "Fender Deluxe Reverb Tube Guitar Amplifier",
-      "price": "1200$",
-      "description": "The Fender Deluxe Reverb is a classic tube guitar amplifier known for its warm, responsive tone and iconic spring reverb. Featuring a 22-watt all-tube design, 12-inch Jensen speaker, and vintage-style tremolo, this amp delivers the legendary Fender sound that has been a favorite among guitarists for generations. Whether you're playing blues, rock, or country, the Deluxe Reverb provides the performance and versatility you need to dial in your perfect tone.",
-      "image": "https://media.sweetwater.com/api/i/q-82__ha-22e47d166ca2d2c7__hmac-dace0f5ecf7dd9f61204bc58732f268c8c4ac209/images/items/750/65DeluxeReverbCombo-xlarge.jpg",
-      "type": "Guitar Amplifier",
-      "rating": 3.5
+      "name": "Dave Smith Instruments Prophet-6 Synthesizer",
+      "price": "2999$",
+      "description": "The Dave Smith Instruments Prophet-6 synthesizer is a modern classic that combines vintage analog warmth with modern functionality. Featuring two discrete VCOs and a 24dB low-pass filter per voice, the Prophet-6 offers rich, textured sounds reminiscent of classic analog synthesizers. With its intuitive interface, extensive modulation options, and built-in effects, the Prophet-6 is the ultimate instrument for creating lush pads, searing leads, and evolving soundscapes.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi0mzH6lAiew5-3wUZwYxh2i9P9WKy5oUxgGfbUlqCyw&s",
+      "type": "Synthesizer",
+      "rating": 4
     },
     {
       "id": "28",
-      "name": "Korg Kronos 88-Key Workstation",
-      "price": "4000$",
-      "description": "The Korg Kronos is a flagship workstation synthesizer designed for professional musicians and producers. Featuring an 88-note weighted keyboard, nine sound engines, and a vast library of sounds and effects, this instrument offers unparalleled creative potential for studio and stage. Whether you're composing film scores, producing electronic music, or performing live, the Kronos provides the performance and versatility you need to bring your musical ideas to life.",
-      "image": "https://i.ebayimg.com/images/g/GUIAAOSw9VhfmaGd/s-l1600.jpg",
-      "type": "Workstation",
+      "name": "Epiphone SG Standard '61 Electric Guitar",
+      "price": "449$",
+      "description": "The Epiphone SG Standard '61 electric guitar pays homage to the iconic design of the 1961 SG. Featuring a mahogany body and neck, Alnico Classic PRO humbucking pickups, and a SlimTaper 'D' profile neck, this guitar delivers classic SG tone with modern playability. Whether you're playing rock, blues, or metal, the SG Standard '61 offers versatile tone and comfortable performance at an affordable price.",
+      "image": "https://images.musicstore.de/images/0960/epiphone-sg-standard-61-vintage-cherry_1_GIT0051945-000.jpg",
+      "type": "Electric Guitar",
       "rating": 4
     },
     {
       "id": "29",
-      "name": "Gibson J-45 Standard Acoustic Guitar",
-      "price": "3000$",
-      "description": "The Gibson J-45 Standard is an iconic acoustic guitar known for its exceptional tone, playability, and craftsmanship. Featuring a solid Sitka spruce top, mahogany back and sides, and hand-scalloped X-bracing, this guitar delivers a balanced sound with rich lows, crisp highs, and warm midrange. Whether you're strumming chords or fingerpicking melodies, the J-45 Standard offers the performance and versatility you need to excel in any musical setting.",
-      "image": "https://www.long-mcquade.com/files/147790/md/AC45ANT19.jpg",
-      "type": "Acoustic Guitar",
-      "rating": 3
+      "name": "Cremona SV-500 Premier Artist Violin Outfit",
+      "price": "799$",
+      "description": "The Cremona SV-500 Premier Artist violin outfit is a top choice for intermediate to advanced players seeking a professional-quality instrument. Handcrafted from select tonewoods and finished with an antiqued varnish, this violin offers a rich, nuanced tone with excellent projection and response. The outfit includes a deluxe case, bow, and rosin, making it a complete solution for serious violinists.",
+      "image": "https://www.micheomusic.com/cdn/shop/products/SV-500_a_bg-1.png?v=1662740499&width=2048",
+      "type": "Violin",
+      "rating": 1
     },
     {
       "id": "30",
-      "name": "Moog Subsequent 37 Analog Synthesizer",
-      "price": "1800$",
-      "description": "The Moog Subsequent 37 is a powerful analog synthesizer designed for studio and stage use. Featuring 37 full-size keys, two oscillators, and extensive modulation options, this instrument offers a wide range of sonic possibilities for creating lush pads, searing leads, and fat bass sounds. With its intuitive interface and hands-on controls, the Subsequent 37 is perfect for musicians and producers looking to add classic Moog analog warmth and character to their music.",
-      "image": "https://media.sweetwater.com/api/i/q-82__ha-40e2be5be74c4f9d__hmac-285836d2867e4a26db1dc0a28c15cc15381e73c5/images/items/750/Sub37-Key-xlarge.jpg",
+      "name": "Sonor SQ2 Maple Drum Kit",
+      "price": "5999$",
+      "description": "The Sonor SQ2 Maple drum kit is a custom-crafted instrument designed to meet the exacting standards of professional drummers. Handmade in Germany, this kit features premium North American maple shells, precision-cut bearing edges, and Sonor's unique TuneSafe lugs for superior tuning stability and resonance. Whether you're recording in the studio or performing live on stage, the Sonor SQ2 Maple delivers unmatched sound quality, versatility, and craftsmanship.",
+      "image": "https://cdn11.bigcommerce.com/s-gs0pdv/images/stencil/original/products/17336/83854/1023709-2-3__09139.1660144265.jpg?c=2&imbypass=on&imbypass=on",
+      "type": "Drum",
+      "rating": 2
+    },
+    {
+      "id": "31",
+      "name": "Bösendorfer 280VC Vienna Concert Grand Piano",
+      "price": "200000$",
+      "description": "The Bösendorfer 280VC Vienna Concert Grand piano is the pinnacle of Austrian craftsmanship and piano design. Handcrafted in Vienna, this instrument features Bösendorfer's iconic open pinblock design, 92 keys, and resonant spruce soundboard for unparalleled tonal richness, dynamic range, and sustain. Whether you're performing solo recitals, chamber music, or concerto repertoire, the Bösendorfer 280VC delivers a transcendent musical experience.",
+      "image": "https://www.coachhousepianos.co.uk/wp-content/uploads/2022/07/bosendorfer_model_280_vc_1_20150802_11006819671.jpg",
+      "type": "Piano",
+      "rating": 5
+    },
+    {
+      "id": "32",
+      "name": "Miyazawa PB-102 Professional Flute",
+      "price": "5000$",
+      "description": "The Miyazawa PB-102 professional flute is crafted with precision and artistry to meet the demands of professional flutists. Handmade in Japan, this flute features a sterling silver headjoint, body, and footjoint with 14k gold riser for a warm, resonant tone with excellent projection and control. Its precise mechanism and ergonomic key design ensure effortless playability across all registers, making it the ideal instrument for solo performance and ensemble playing.",
+      "image": "https://www.allflutesplus.com/wp-content/uploads/cm//I/M/Miyazawa-PB102-Flute",
+      "type": "Flute",
+      "rating": 6
+    },
+    {
+      "id": "33",
+      "name": "Novation Summit Polyphonic Synthesizer",
+      "price": "1999$",
+      "description": "The Novation Summit polyphonic synthesizer is a powerhouse of sound design and performance capabilities. Featuring 16 voices of analog/digital hybrid synthesis, dual filters, and extensive modulation options, the Summit offers unparalleled sonic versatility for studio and stage use. Its intuitive interface, expressive keyboard, and built-in effects make it the ultimate instrument for creating rich, textured sounds and evolving sonic landscapes.",
+      "image": "https://m.media-amazon.com/images/I/71r214BTsIL._AC_UF894,1000_QL80_.jpg",
       "type": "Synthesizer",
       "rating": 5
+    },
+    {
+      "id": "34",
+      "name": "Ibanez RG550 Electric Guitar",
+      "price": "999$",
+      "description": "The Ibanez RG550 electric guitar is a modern classic known for its sleek design, fast playability, and aggressive tone. Featuring a basswood body, maple neck with a Wizard profile, and a trio of Ibanez V7/S1/V8 pickups, this guitar delivers high-output tone with exceptional clarity and articulation. Whether you're shredding solos or chugging riffs, the RG550 offers uncompromising performance and style.",
+      "image": "https://sc1.musik-produktiv.com/pic-010103112xl/ibanez-rg550-rf-genesis-collection.jpg",
+      "type": "Electric Guitar",
+      "rating": 4
+    },
+    {
+      "id": "35",
+      "name": "Scott Cao STV-017 Violin",
+      "price": "2999$",
+      "description": "The Scott Cao STV-017 violin is a premium instrument crafted by master luthiers using traditional methods and the finest materials. Handmade from aged European tonewoods and finished with an antique varnish, this violin offers a rich, nuanced tone with exceptional projection and responsiveness. Whether you're a soloist, chamber.",
+      "image": "https://www.violinpros.com/cdn/shop/products/017_front_900x.jpg?v=1542362611",
+      "rating": 5
+    },
+    {
+      "id": "36",
+      "name": "Gibson Les Paul Standard '50s Electric Guitar",
+      "price": "2499$",
+      "description": "The Gibson Les Paul Standard '50s electric guitar pays tribute to the iconic instruments of the 1950s with its classic design and vintage-inspired features. Featuring a mahogany body with a maple top, '50s profile mahogany neck, and Burstbucker pickups, this guitar delivers the timeless tone and feel that made the Les Paul legendary. Whether you're playing blues, rock, or jazz, the Les Paul Standard '50s offers unmatched playability and tone.",
+      "image": "https://images.ctfassets.net/m8onsx4mm13s/11yLD2nnJYanRYcEHIvbu8/d7af425bee99e2bf7b9a40b747d3818f/__static.gibson.com_product-images_USA_USAUBC849_Heritage_Cherry_Sunburst_LPS519HSNH1_1.jpg",
+      "type": "Electric Guitar",
+      "rating": 4
+    },
+    {
+      "id": "37",
+      "name": "Eastman VL405 Violin",
+      "price": "1499$",
+      "description": "The Eastman VL405 violin is a premium instrument handcrafted with meticulous attention to detail and superior materials. Made from select tonewoods and finished with an antique-style varnish, this violin offers a warm, resonant tone with excellent projection and responsiveness. Whether you're a student or a professional, the Eastman VL405 delivers exceptional playability and musicality.",
+      "image": "https://images.squarespace-cdn.com/content/v1/5a04b91b914e6b6222be0e26/1647012176721-6TDZTW8FVPADY51WOPGV/Andreas-Eastman-Series%2B-VL405%2B.jpg",
+      "type": "Violin",
+      "rating": 4
+    },
+    {
+      "id": "38",
+      "name": "DW Collector's Series Drum Kit",
+      "price": "5999$",
+      "description": "The DW Collector's Series drum kit is a flagship instrument designed for discerning drummers who demand the utmost in quality and performance. Handcrafted in California, this kit features custom maple shells, patented suspension mounting system, and True-Pitch tuning rods for unparalleled tone, resonance, and tuning stability. Whether you're recording in the studio or performing on stage, the DW Collector's Series delivers professional-grade sound and craftsmanship.",
+      "image": "https://media.sweetwater.com/m/products/image/45f6aabcc9r8ux8ptAcMplt18lgf0VGr5363YjIY.jpg?quality=82&width=750&ha=45f6aabcc9981f7f",
+      "type": "Drum",
+      "rating": 2
+    },
+    {
+      "id": "39",
+      "name": "Steinway Model D Concert Grand Piano",
+      "price": "150000$",
+      "description": "The Steinway Model D concert grand piano is the gold standard of pianos, renowned for its impeccable craftsmanship and unparalleled sound quality. Handcrafted in New York, this instrument features a legendary soundboard, patented Octagrip pinblock, and Accelerated Action for unmatched touch and responsiveness. Whether you're performing in a concert hall or recording studio, the Steinway Model D delivers a transcendent musical experience.",
+      "image": "https://eu.steinway.com/fileadmin/user_upload/Fluegel_D_Black_03.jpg",
+      "type": "Piano",
+      "rating": 6
+    },
+    {
+      "id": "40",
+      "name": "Altus 1207 Professional Flute",
+      "price": "8000$",
+      "description": "The Altus 1207 professional flute is a masterpiece of craftsmanship and precision engineering. Handmade in Japan, this flute features a sterling silver body, headjoint, and mechanism with 18k gold-plated lip plate and riser for a warm, luxurious tone with excellent projection and control. Its ergonomic key design and precise mechanism ensure effortless playability across all registers, making it the ideal instrument for professional flutists.",
+      "image": "https://res.cloudinary.com/flute-specialists-inc/images/f_auto,q_auto/v1683259393/altus_hm_drawn_1207-1307_sq2000_lsxq97/altus_hm_drawn_1207-1307_sq2000_lsxq97.jpg?_i=AA",
+      "type": "Flute",
+      "rating": 5
+    },
+    {
+      "id": "41",
+      "name": "Moog Subsequent 37 Analog Synthesizer",
+      "price": "1799$",
+      "description": "The Moog Subsequent 37 analog synthesizer is a powerful instrument that offers rich, expressive sound and unparalleled control. Featuring 37 velocity-sensitive keys, two oscillators, and a versatile modulation section, the Subsequent 37 delivers a wide range of classic and modern analog sounds with depth and character. Whether you're a synthesizer enthusiast or a professional musician, the Moog Subsequent 37 is sure to inspire creativity and musical exploration.",
+      "image": "https://media.sweetwater.com/m/products/image/ab8e89b8744UO6gPl9ruaLHzPrtjQci7RdwDQ6ud.wm-lw.jpg?quality=82&width=750&ha=ab8e89b874e20f87",
+      "type": "Synthesizer",
+      "rating": 5
+    },
+    {
+      "id": "42",
+      "name": "Fender Jazz Bass Electric Bass Guitar",
+      "price": "1499$",
+      "description": "The Fender Jazz Bass electric bass guitar is an iconic instrument known for its smooth playability and versatile tone. Featuring a sleek offset body design, two single-coil pickups, and a slim 'C'-shaped neck, this bass delivers punchy, articulate sound with plenty of low-end growl. Whether you're laying down grooves in the studio or holding down the rhythm on stage, the Fender Jazz Bass offers unmatched performance and style.",
+      "image": "https://m.media-amazon.com/images/I/61LmfUn1RDL.jpg",
+      "type": "Bass Guitar",
+      "rating": 4
+    },
+    {
+      "id": "43",
+      "name": "D'Addario Zyex Violin Strings",
+      "price": "60$",
+      "description": "D'Addario Zyex violin strings are designed for violinists seeking a warm, rich tone with excellent projection and stability. Made from a synthetic composite core with a unique blend of materials, Zyex strings offer a balanced sound that is ideal for both classical and contemporary repertoire. Whether you're a student or a professional, D'Addario Zyex strings deliver",
+      "image": "https://www.daddario.com/globalassets/inriver/resources/do_dz310a-44m_main_transparent10.png",
+      "type": "Bass Guitar",
+      "rating": 4
+    },
+    {
+      "id": "44",
+      "name": "Taylor 814ce Grand Auditorium Acoustic-Electric Guitar",
+      "price": "3499$",
+      "description": "The Taylor 814ce Grand Auditorium acoustic-electric guitar represents the pinnacle of Taylor's craftsmanship and innovation. Featuring a solid Sitka spruce top, Indian rosewood back and sides, and Taylor's patented V-Class bracing, this guitar offers unparalleled tone, sustain, and intonation. Equipped with Taylor's Expression System 2 electronics, the 814ce delivers natural amplified sound for stage and studio performance.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAp9xe4_VOCszFv04htkzK8jp9QliWjzKZaw&s",
+      "type": "Acoustic Guitar",
+      "rating": 2
+    },
+    {
+      "id": "45",
+      "name": "Stradivarius Violin",
+      "price": "Varies",
+      "description": "The Stradivarius violin is one of the most coveted and legendary instruments in the world. Crafted by renowned Italian luthier Antonio Stradivari in the 17th and 18th centuries, these violins are celebrated for their exquisite craftsmanship, superior tonal qualities, and historical significance. Each Stradivarius violin is a unique work of art and a prized possession of collectors and virtuoso violinists.",
+      "image": "https://r2.gear4music.com/media/90/902991/600/preview.jpg",
+      "type": "Violin",
+      "rating": 3
+    },
+    {
+      "id": "46",
+      "name": "DW Design Series Drum Kit",
+      "price": "1499$",
+      "description": "The DW Design Series drum kit offers professional-level performance and quality at an affordable price. Featuring North American maple shells, STM suspension mounts, and True-Pitch tuning rods, this kit delivers the legendary DW sound and craftsmanship. Whether you're a beginner or a gigging musician, the DW Design Series provides exceptional tone, durability, and playability.",
+      "image": "https://media.sweetwater.com/api/i/q-82__ha-11e08999d067e331__hmac-cc78c310338961c43c563bc4fcbc9e1515754af2/images/items/750/DDACSM6pc-large.jpg",
+      "type": "Drum",
+      "rating": 6
+    },
+    {
+      "id": "47",
+      "name": "Steinway Model S Baby Grand Piano",
+      "price": "85000$",
+      "description": "The Steinway Model S baby grand piano is a masterpiece of design and engineering, offering exceptional sound and craftsmanship in a compact size. Handcrafted in New York, this piano features Steinway's patented Accelerated Action, Diaphragmatic soundboard, and Hexagrip pinblock for unparalleled touch and tone. Whether you're a professional pianist or a discerning enthusiast, the Steinway Model S delivers a rich and expressive musical experience.",
+      "image": "https://www.rimmersmusic.co.uk/images/steinway-model-s-acoustic-grand-piano-ebonised-satin-p32857-151450_image.jpg",
+      "type": "Piano",
+      "rating": 3
+    },
+    {
+      "id": "48",
+      "name": "Powell Handmade Custom Flute",
+      "price": "10000$",
+      "description": "The Powell handmade custom flute is a true work of art, meticulously crafted to the specifications of the most discerning flutists. Handmade in the United States, this flute features a sterling silver body, headjoint, and mechanism with 14k gold riser and soldered tone holes for exceptional tone, projection, and response. Its precise mechanism and ergonomic key design ensure effortless playability across all registers, making it the ultimate instrument for professional flutists.",
+      "image": "https://flutecenter.com/cdn/shop/products/powell_wood_1_540x.jpg?v=1543343973",
+      "type": "Flute",
+      "rating": 4
+    },
+    {
+      "id": "49",
+      "name": "Korg Minilogue XD Polyphonic Analog Synthesizer",
+      "price": "649$",
+      "description": "The Korg Minilogue XD polyphonic analog synthesizer is a powerful instrument that combines vintage analog warmth with modern digital functionality. Featuring four-voice polyphony, digital multi-engine, and a customizable user interface, the Minilogue XD offers endless sonic possibilities for studio and live performance. Whether you're a synthesizer enthusiast or a professional musician, the Minilogue XD is sure to inspire creativity and musical exploration.",
+      "image": "https://cdn.korg.com/us/products/upload/baecaf881b2d5620a22801ccdd1df297_sp.png",
+      "type": "Synthesizer",
+      "rating": 2
+    },
+    {
+      "id": "50",
+      "name": "Music Man StingRay Bass Guitar",
+      "price": "1999$",
+      "description": "The Music Man StingRay bass guitar is a legendary instrument known for its powerful sound and smooth playability. Featuring a select hardwood body, maple neck, and a single humbucking pickup, this bass delivers punchy, articulate tone with plenty of low-end punch. Whether you're laying down grooves in the studio or rocking out on stage, the StingRay bass offers unmatched performance and style.",
+      "image": "https://sc1.musik-produktiv.com/pic-010156033l/music-man-stingray-special-mm107-rw-sb.jpg",
+      "type": "Bass Guitar",
+      "rating": 1
+    },
+    {
+      "id": "51",
+      "name": "Gretsch G5420T Electromatic Hollow Body Electric Guitar",
+      "price": "899$",
+      "description": "The Gretsch G5420T Electromatic hollow body electric guitar offers vintage style and modern performance at an affordable price. Featuring a maple body with a bound arched top, dual Black Top Filter'Tron pickups, and a Bigsby licensed B60 vibrato tailpiece, this guitar delivers classic Gretsch tone with smooth playability and unmistakable style. Whether you're playing rockabilly, jazz, or blues, the G5420T Electromatic is sure to impress.",
+      "image": "https://www.loganspianos.com.au/cdn/shop/products/Gretsch-G5420T-Electromatic-Hollow-Body-Electric-Guitar-Fairlane-Blue-Logans-Pianos-2_a795ccb1-3b04-4baa-b9f6-fee3fbda4c69.jpg?v=1629463660",
+      "type": "Electric Guitar",
+      "rating": 2
+    },
+    {
+      "id": "52",
+      "name": "Cecilio CVN-300 Violin",
+      "price": "129$",
+      "description": "The Cecilio CVN-300 violin is an excellent choice for beginners and students looking for a quality instrument at an affordable price. Handcrafted from solid spruce and maple, this violin features an ebony fingerboard, pegs, chin rest, and tailpiece with four nickel-plated fine tuners. With its warm tone and easy playability, the CVN-300 is ideal for students starting their musical journey.",
+      "image": "https://rvb-img.reverb.com/image/upload/s--FcvHxvyU--/f_auto,t_large/v1664559084/fj1u2zg1zo884spesswv.jpg",
+      "type": "Violin",
+      "rating": 5
+    },
+    {
+      "id": "53",
+      "name": "Mapex Saturn Evolution Drum Kit",
+      "price": "2499$",
+      "description": "The Mapex Saturn Evolution drum kit is a versatile and professional-grade instrument designed for drummers who demand the best. Featuring hybrid maple and walnut shells, SONIClear bearing edges, and Mapex's proprietary hardware, this kit delivers rich, full-bodied tones with exceptional clarity and projection. Whether you're recording in the studio or performing live on stage, the Mapex Saturn Evolution offers unmatched sound and performance.",
+      "image": "https://sc1.musik-produktiv.com/pic-010130882xxl/mapex-saturn-evolution-22-gun-metal-grey-studioease-shell-set.jpg",
+      "type": "Drum",
+      "rating": 5
+    },
+    {
+      "id": "54",
+      "name": "Bösendorfer 214VC Vienna Concert Grand Piano",
+      "price": "250000$",
+      "description": "The Bösendorfer 214VC Vienna Concert Grand piano is a masterpiece of Austrian craftsmanship and engineering. Handcrafted in Vienna, this instrument features Bösendorfer's iconic open pinblock design, 88 keys, and resonant spruce soundboard for unparalleled tonal richness, dynamic range, and sustain. Whether you're a concert pianist or a discerning enthusiast, the Bösendorfer 214VC delivers an unmatched musical experience.",
+      "image": "https://shop.sg.yamaha.com/media/catalog/product/2/1/214vc.png?optimize=high&fit=bounds&height=700&width=700&canvas=700:700&format=jpeg",
+      "type": "Piano",
+      "rating": 2
+    },
+    {
+      "id": "55",
+      "name": "Muramatsu EX-III Flute",
+      "price": "8000$",
+      "description": "The Muramatsu EX-III flute is a top-tier instrument handcrafted in Japan by master artisans. Made from solid silver with a soldered tone hole construction, this flute offers a rich, resonant tone with exceptional projection and control. Its precise mechanism and ergonomic key design ensure effortless playability across all registers, making it the preferred choice of professional flutists worldwide.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDOaC8f5OO0n3BXTJ1r--DBoxKLo9ZuG4nqrahM2BWyw&s",
+      "type": "Flute",
+      "rating": 5
+    },
+    {
+      "id": "56",
+      "name": "Roland Jupiter-X Synthesizer",
+      "price": "2499$",
+      "description": "The Roland Jupiter-X synthesizer is a flagship instrument that combines classic analog sound with modern digital technology. Featuring Roland's acclaimed SuperNATURAL sound engine, this synthesizer offers authentic recreations of vintage analog tones alongside cutting-edge digital synthesis capabilities. With its intuitive interface, expressive keyboard, and extensive modulation options, the Jupiter-X is a versatile instrument for studio and stage use.",
+      "image": "https://dt7v1i9vyp3mf.cloudfront.net/styles/news_large/s3/imagelibrary/R/RolandJupiterX_01-yNWeTxzRId_t6xvErijW2JDBqMTLvgk6.jpg",
+      "type": "Synthesizer",
+      "rating": 5
+    },
+    {
+      "id": "57",
+      "name": "Ernie Ball Music Man StingRay 4 Bass Guitar",
+      "price": "1999$",
+      "description": "The Ernie Ball Music Man StingRay 4 bass guitar is a modern classic known for its powerful sound and smooth playability. Featuring a select hardwood body, maple neck, and a single humbucking pickup, this bass delivers punchy, articulate tone with plenty of low-end punch. Whether you're laying down grooves in the studio or rocking out on stage, the StingRay 4 bass offers unmatched performance and style.",
+      "image": "https://sc1.musik-produktiv.com/pic-010113818xxl/sterling-by-music-man-sub-ray-4-bk-10113818.jpg",
+      "type": "Bass Guitar",
+      "rating": 5
+    },
+    {
+      "id": "58",
+      "name": "IBANEZ IJSR190N JUMPSTART BASS",
+      "price": "517$",
+      "description": "TA guitar doesn't have to cost a lot to sound great. The GIO series was developed for players who want Ibanez quality and performance in a more affordable package. Not only do they look and play better than many other offerings in their price range, but they are held to the same standards and come with warranty is the same as Ibanez's more expensive models..",
+      "image": "https://media.sweetwater.com/api/i/q-85__ha-1a0c14e9782ab38e__hmac-75769cf819d4c42d08068b298e2810631a847da8/images/items/750/STINGR4HHSM_4_large.jpg",
+      "type": "Bass Guitar",
+      "rating": 5
+    },
+    {
+      "id": "59",
+      "name": "Paul Reed Smith SE Custom 24 Electric Guitar",
+      "price": "849$",
+      "description": "The Paul Reed Smith SE Custom 24 electric guitar offers high-quality craftsmanship and versatile tone at an affordable price. Featuring a mahogany body with a maple top, wide thin maple neck, and dual humbucking pickups, this guitar delivers a balanced sound with plenty of clarity and sustain. Whether you're playing rock, blues, or metal, the SE Custom 24 provides exceptional playability and performance.",
+      "image": "https://rvb-img.reverb.com/image/upload/s--xhAz94St--/f_auto,t_supersize/v1556302191/r6eeh3rmzsitltsimvc4.jpg",
+      "type": "Electric Guitar",
+      "rating": 2
+    },
+    {
+      "id": "60",
+      "name": "Amati ACL-201 Student flute",
+      "price": "299$",
+      "description": "The Amati ACL-201 student flute is an excellent choice for beginners and young musicians. Featuring a durable ABS resin body, nickel-plated keys, and an adjustable thumb rest, this flute offers easy playability and reliable performance. With its warm tone and responsive feel, the ACL-201 is ideal for students starting their musical journey.",
+      "image": "https://m.media-amazon.com/images/I/61tEjW47uKL.jpg",
+      "type": "flute",
+      "rating": 2
+    },
+    {
+      "id": "61",
+      "name": "Pearl Export Series Drum Kit",
+      "price": "999$",
+      "description": "The Pearl Export Series drum kit is a versatile and reliable instrument designed for drummers of all levels. Featuring poplar shells, Opti-Loc mounting system, and Pearl's legendary hardware, this kit delivers a powerful sound with excellent projection and sustain. Whether you're practicing at home or performing on stage, the Pearl Export Series offers professional-grade quality at an affordable price.",
+      "image": "https://cdn.mos.cms.futurecdn.net/56f1ec9b3d8115bf5548016475bd9f7d.jpg",
+      "type": "Drum",
+      "rating": 4
+    },
+    {
+      "id": "62",
+      "name": "Kawai K-300 Professional Upright Piano",
+      "price": "9499$",
+      "description": "The Kawai K-300 professional upright piano is a premium instrument crafted with meticulous attention to detail and superior materials. Featuring Kawai's Millennium III action, solid spruce soundboard, and extended key length, this piano offers a rich, resonant tone with exceptional dynamic range and control. Whether you're a professional pianist or a discerning enthusiast, the Kawai K-300 delivers unmatched performance and musicality.",
+      "image": "https://kawaius.com/wp-content/uploads/2018/04/K-300-Polished-Ebony.jpg",
+      "type": "Piano",
+      "rating": 6
+    },
+    {
+      "id": "63",
+      "name": "Jupiter JFL700WD Wind Band Flute",
+      "price": "899$",
+      "description": "The Jupiter JFL700WD Wind Band flute is a high-quality instrument designed for aspiring flute players. Featuring a silver-plated body, offset G key, and split E mechanism, this flute offers easy playability and excellent intonation. Whether you're playing in a wind band or a school ensemble, the JFL700WD delivers a clear, focused tone with responsive key action.",
+      "image": "https://www.fluteworld.com/wp-content/uploads/2023/03/700WD.jpg",
+      "type": "Flute",
+      "rating": 3
+    },
+    {
+      "id": "64",
+      "name": "Korg Kronos 88-Key Synthesizer Workstation",
+      "price": "3999$",
+      "description": "The Korg Kronos 88-key synthesizer workstation is a powerful instrument that offers unparalleled sound quality and performance capabilities. Featuring nine sound engines, intuitive touchscreen interface, and premium keyboard action, the Kronos delivers a wide range of expressive sounds and dynamic control. Whether you're composing, performing, or producing, the Kronos is the ultimate tool for musical creativity.",
+      "image": "https://cdn.korg.com/us/products/upload/56e30ebd24c1d2f376d118fb4fe76515.jpg",
+      "type": "Synthesizer",
+      "rating": 3
+    },
+    {
+      "id": "65",
+      "name": "Rickenbacker 4003 Bass Guitar",
+      "price": "2199$",
+      "description": "The Rickenbacker 4003 bass guitar is an iconic instrument known for its distinctive tone and timeless design. Featuring a maple body, through-body neck construction, and two single-coil pickups, this bass delivers punchy lows, crisp highs, and excellent sustain. Whether you're playing rock, punk, or alternative, the Rickenbacker 4003 offers unmatched performance and style.",
+      "image": "https://media.sweetwater.com/api/i/q-85__ha-4aa8822030c706a5__hmac-d4ec085961de8",
+      "type": "Synthesizer",
+      "rating": 3
+    },
+    {
+      "id": "73",
+      "name": "PRS SE Custom 22 Semi-Hollow Electric Guitar",
+      "price": "849$",
+      "description": "The PRS SE Custom 22 semi-hollow electric guitar offers a perfect blend of vintage style and modern performance. Featuring a maple top with mahogany back and sides, dual PRS-designed humbucking pickups, and a Wide Thin maple neck, this guitar delivers rich, versatile tone with excellent sustain and resonance. Whether you're playing blues, jazz, or rock, the SE Custom 22 is sure to inspire your creativity.",
+      "image": "https://media.sweetwater.com/m/products/image/56b6be381amz7EaMi3VpS6F0dF410yktwxOwYf5J.wm-lh.png?quality=82&height=750&ha=56b6be381a809565",
+      "type": "Electric Guitar",
+      "rating": 3
+    },
+    {
+      "id": "74",
+      "name": "Selmer Paris Series 10 Professional Bb flute",
+      "price": "4999$",
+      "description": "The Selmer Paris Series 10 professional Bb flute is a top-tier instrument known for its exceptional craftsmanship and superior performance. Handcrafted in France, this flute features a grenadilla wood body, silver-plated keys, and undercut tone holes for impeccable tone and intonation. Whether you're performing in a symphony orchestra or a chamber ensemble, the Series 10 flute delivers unmatched playability and musicality.",
+      "image": "https://ddr3x1cbw21n8.cloudfront.net/full/CSEL-Y0303.jpg",
+      "type": "flute",
+      "rating": 5
+    },
+    {
+      "id": "75",
+      "name": "DW Collector's Series Drum Kit",
+      "price": "4999$",
+      "description": "The DW Collector's Series drum kit is a flagship instrument designed for professional drummers who demand the highest quality and performance. Featuring North American maple shells, True-Pitch tuning rods, and STM (Suspension Tom Mounts), this kit delivers a rich, resonant tone with exceptional clarity and projection. Whether you're recording in the studio or performing on stage, the DW Collector's Series offers unparalleled sound and craftsmanship.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpMPCgkOtwaHUopuk9CwilWg42TR7J3AygIQ&s",
+      "type": "Drum",
+      "rating": 2
+    },
+    {
+      "id": "76",
+      "name": "Bösendorfer 280VC Vienna Concert Grand Piano",
+      "price": "300000$",
+      "description": "The Bösendorfer 280VC Vienna Concert Grand piano is a masterpiece of Austrian craftsmanship and engineering. Handcrafted in Vienna, this instrument features Bösendorfer's iconic open pinblock design, 97 keys, and resonant spruce soundboard for unparalleled tonal richness, dynamic range, and sustain. Whether you're a concert pianist or a discerning enthusiast, the Bösendorfer 280VC delivers an unmatched musical experience.",
+      "image": "https://www.coachhousepianos.co.uk/wp-content/uploads/2022/07/bosendorfer_model_280_vc_1_20150802_11006819671.jpg",
+      "type": "Piano",
+      "rating": 4
+    },
+    {
+      "id": "77",
+      "name": "Muramatsu GX-RBE Flute",
+      "price": "12000$",
+      "description": "The Muramatsu GX-RBE flute is a top-tier instrument handcrafted in Japan by master artisans. Made from solid silver with a soldered tone hole construction, this flute offers a rich, resonant tone with exceptional projection and control. Its precise mechanism and ergonomic key design ensure effortless playability across all registers, making it the preferred choice of professional flutists worldwide.",
+      "image": "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_19/196340/10948794_800.jpg",
+      "type": "Flute",
+      "rating": 4
+    },
+    {
+      "id": "78",
+      "name": "Moog Subsequent 37 Analog Synthesizer",
+      "price": "1799$",
+      "description": "The Moog Subsequent 37 analog synthesizer is a powerful instrument that offers rich, vintage-inspired sound with modern functionality and performance capabilities. Featuring 37 velocity-sensitive keys, dual analog oscillators, and a versatile modulation section, the Subsequent 37 delivers thick basses, soaring leads, and evolving textures with ease. Whether you're a synthesizer enthusiast or a professional musician, the Subsequent 37 is sure to inspire your creativity.",
+      "image": "https://media.sweetwater.com/m/products/image/ab8e89b8744UO6gPl9ruaLHzPrtjQci7RdwDQ6ud.wm-lw.jpg?quality=82&width=750&ha=ab8e89b874e20f87",
+      "type": "Synthesizer",
+      "rating": 3
+    },
+    {
+      "id": "79",
+      "name": "Music Man StingRay Special Bass Guitar",
+      "price": "2299$",
+      "description": "The Music Man StingRay Special bass guitar is a modern classic known for its powerful sound and smooth playability. Featuring a select hardwood body, roasted maple neck, and neodymium humbucking pickup, this bass delivers punchy, articulate tone with plenty of low-end punch. Whether you're laying down grooves in the studio or rocking out on stage, the StingRay Special bass offers unmatched performance and style.",
+      "image": "https://sc1.musik-produktiv.com/pic-010108180xxl/music-man-stingray-special-mm108-mn-bk-hh.jpg",
+      "type": "Bass Guitar",
+      "rating": 1
     }
   ],
   "users": [
     {
       "id": "1",
-      "userName": "artur",
+      "userName": "Rick",
       "email": "arturmanukyan019@gmail.com",
       "password": "123456789aaAA",
-      "image": "https://images.unsplash.com/photo-1566070294271-0cb77eb47f6e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTV8fGZhY2V8ZW58MHx8MHx8fDA%3D",
-      "card": "4242-4242-4242-4242",
+      "image": "",
+      "card": "515151515116",
       "purchases": [
         30,
         29,
@@ -304,6 +681,19 @@
       "purchases": [],
       "fav": [],
       "cart": []
+    },
+    {
+      "id": "3",
+      "userName": "uhuhuhh",
+      "email": "aaa@aa.com",
+      "password": "12345678a",
+      "passwordConfirmation": "12345678a",
+      "toggle": true,
+      "image": "C:\\fakepath\\poster2.png",
+      "card": "424242424242",
+      "purchases": [],
+      "fav": [],
+      "cart": []
     }
   ],
   "catalog": [
@@ -324,7 +714,7 @@
     },
     {
       "id": "4",
-      "title": "Sintezators",
+      "title": "Synthesizer",
       "image": "./images/sintezator.jpg"
     },
     {

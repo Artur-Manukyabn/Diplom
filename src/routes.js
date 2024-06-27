@@ -3,7 +3,6 @@ const ROUTES = {
   ACCOUNT: "account",
   CATALOG: "catalog/:type",
   SINGLEPRODUCT : "catalog/:type/:id",
-  SETTINGS: "settings",
   ABOUT: "about",
   LOGIN: "login",
 };

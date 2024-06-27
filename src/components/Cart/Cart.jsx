@@ -9,7 +9,7 @@ export default function Cart() {
   const [user, setUser] = useState(null);
   const [products, setproducts] = useState([]);
   const [filteredProducts, setfilteredProducts] = useState([]);
-  const [timer, setTimer] = useState(0);
+  // const [timer, setTimer] = useState(0);
   const star = (
     <path
       d="M398.799,141.794c-43.394-3.977-86.776-6.52-130.158-8.418C258.835,99.302,242.633-4.751,193.173,0.169
@@ -51,9 +51,6 @@ export default function Cart() {
       return user.cart?.includes(Number(prod.id));
     });
     setfilteredProducts(filteredProducts);
-  }, [products, user, timer]);
-  useEffect(() => {
-    setInterval(setTimer(timer + 1), 10000);
   }, [products, user]);
 
   const handleDelete = (id) => {
@@ -100,6 +97,11 @@ export default function Cart() {
           </div>
         );
       })}
+      <div className="Cart__line"></div>
+      <div className="Cart__bottom">
+      <button>
+        Buy
+      </button>
       <h2 className="Cart__totalPrice">
         Total price :{" "}
         {filteredProducts.reduce((acc, elem) => {
@@ -107,6 +109,7 @@ export default function Cart() {
         }, 0)}
         $
       </h2>
+      </div>
     </div>
   );
 }

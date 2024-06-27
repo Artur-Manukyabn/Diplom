@@ -14,10 +14,7 @@
     height: 600px;
     width: 33%;
     padding: 1em;
-    // background-color: purple;
-    // background: url(https://i.pinimg.com/564x/96/55/2f/96552f20f147b8e16d2b904c52c8e7f7.jpg);
     background: url(https://i.pinimg.com/564x/c1/5f/8a/c15f8a099e51240d856559ebf1c3fe27.jpg);
-    
     background-position: center center;
   }
   &__activeFormButton {
@@ -85,7 +82,6 @@
       height: 25px;
     }
     &[type="submit"] {
-      
       color: black;
       display: block;
       margin-top: 15px;
@@ -108,7 +104,7 @@
     }
     &__inputDiv{
       position: relative;
-      height: 140px;
+      height: 180px;
     }
     &__active {
       transform: translateX(0);

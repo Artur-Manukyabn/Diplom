@@ -4,12 +4,11 @@ import classNames from "classnames";
 import "./Navbar.scss";
 import ROUTES from "../../routes";
 import Cart from "../Cart/Cart";
-import LocationSelect from "../LocationSelect/LocationSelect";
 import axios from "axios";
 
 export default function Navbar() {
   const [cartActive, setCartActive] = useState(false);
-  const [locationActive, setLocationActive] = useState(false);
+  const [activPage, setactivPage] = useState("home");
   const [userID, setUserID] = useState(null);
   useEffect(() => {
     setUserID(JSON.parse(localStorage.getItem("user")));
@@ -42,8 +41,17 @@ export default function Navbar() {
         </div>
         <nav>
           <ul>
-            <li>
-              <Link to={ROUTES.HOME}>
+            <li
+              className={classNames({
+                active: activPage == "home",
+              })}
+            >
+              <Link
+                to={ROUTES.HOME}
+                onClick={() => {
+                  setactivPage("home");
+                }}
+              >
                 <i className="bi bi-house-fill"></i>
               </Link>
             </li>
@@ -62,42 +70,38 @@ export default function Navbar() {
                 </Link>
               </li>
             )}
-
-            <li>
-              <Link to={ROUTES.ABOUT}>
+            <li
+              className={classNames({
+                active: activPage == "about",
+              })}
+            >
+              <Link
+                to={ROUTES.ABOUT}
+                onClick={() => {
+                  setactivPage("about");
+                }}
+              >
                 <i className="bi bi-info-circle-fill"></i>
               </Link>
             </li>
-            <li>
-              <Link to={ROUTES.SETTINGS}>
-                <i className="bi bi-gear-fill"></i>
-              </Link>
-            </li>
-            {userID !== null ? (
-              <li
-                onClick={() => {
-                  setLocationActive(!locationActive);
-                }}
-              >
-                <i className="bi bi-geo-alt-fill"></i>
-              </li>
-            ) : (
-              <li>
-                <Link to={ROUTES.LOGIN}>
-                  <i className="bi bi-geo-alt-fill"></i>
-                </Link>
-              </li>
-            )}
-            <li>
+            <li
+              className={classNames({
+                active: activPage == "acount",
+              })}
+            >
               <Link to={userID ? ROUTES.ACCOUNT : ROUTES.LOGIN}>
-                <i className="bi bi-person-fill"></i>
+                <i
+                  className="bi bi-person-fill"
+                  onClick={() => {
+                    setactivPage("acount");
+                  }}
+                ></i>
               </Link>
             </li>
           </ul>
         </nav>
       </header>
-      {cartActive ? <Cart  /> : null}
-      {locationActive ? <LocationSelect /> : null}
+      {cartActive ? <Cart /> : null}
     </>
   );
 }

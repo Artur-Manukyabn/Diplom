@@ -31,8 +31,8 @@ export default function LogInForm({ active }) {
     ) {
       const currentUSer = allUser?.find((elem) => elem.email === values.email);
       setUser(currentUSer);
-      localStorage.setItem("user",currentUSer.id)
-      window.location.href="/account"
+      localStorage.setItem("user", currentUSer.id);
+      window.location.href = "/account";
 
       return;
     }
@@ -61,8 +61,10 @@ export default function LogInForm({ active }) {
             <ErrorMessage component="p" name="email" />
           </div>
           <div className="LogInForm__inputDiv ">
-            <label htmlFor="password" className="passowrd" >PASSWORD</label>
-            <Field type="password" name="password"  />
+            <label htmlFor="password" className="passowrd">
+              PASSWORD
+            </label>
+            <Field type="password" name="password" />
             <ErrorMessage component="p" name="password" />
           </div>
           <label className="RegistrForm__checkBox">

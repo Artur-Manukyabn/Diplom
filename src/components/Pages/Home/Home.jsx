@@ -63,29 +63,27 @@ export default function Home() {
       <div className="Home__posters">
         <div className="Home__poster">
           <Slider {...settingsForOne}>
-            <img src="./images/poster1.jpg" alt="" />
-            <img src="./images/poster2.png" alt="" />
-            <img src="./images/poster3.png" alt="" />
+            <img src="./images/poster1.jpg" alt="poster" />
+            <img src="./images/poster2.png" alt="poster" />
+            <img src="./images/poster3.png" alt="poster" />
           </Slider>
         </div>
         <div className="Home__poster">
           <Slider {...settingsForTwo}>
-            <img src="./images/poster2.png" alt="" />
-            <img src="./images/poster3.png" alt="" />
-            <img src="./images/poster1.jpg" alt="" />
+            <img src="./images/poster2.png" alt="poster" />
+            <img src="./images/poster3.png" alt="poster" />
           </Slider>
         </div>
         <div className="Home__poster">
         <Slider {...settingsForThre}>
-            <img src="./images/poster3.png" alt="" />
-            <img src="./images/poster1.jpg" alt="" />
-            <img src="./images/poster2.png" alt="" />
+            <img src="./images/poster3.png" alt="poster" />
+            <img src="./images/poster2.png" alt="poster" />
           </Slider>
         </div>
       </div>
       <h1 className="Home__title">Categories</h1>
       <div className="Home__cards">
-        {instruments.map((elem, index) => {
+        {instruments.map((elem) => {
           return (
             <div className="Home__card" key={elem.id}>
               <img src={elem.image} alt={elem.title} />

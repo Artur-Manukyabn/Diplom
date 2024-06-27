@@ -8,7 +8,7 @@
   border-radius: 16px;
   color: aliceblue;
   overflow: auto;
-  background-color: rgba($color: #6c6c6c, $alpha: 0.5);
+  background-color: rgba($color: #2b2a2a, $alpha: 0.5);
   backdrop-filter: blur(5px);
   display: flex;
   flex-direction: column;
@@ -22,11 +22,42 @@
         background-color: #fff;
         border:1px solid white;
         display: block;
-        
     }
   }
-  &__totalPrice{
+  &__bottom{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 100%;
+    button{
+      width: 100px;
+      height: 50px;
+      background-color: #333;
+      color: #fff;
+      border: 0;
+      border-radius: 16px;
+      font-size: 18px;
+      transition: .4s;
+      &:hover{
+        background-color: #fff;
+        color: #333;
+      }
+    }
+   
+  }
+  &__line{
     margin-top: auto;
+    &::before{
+      content: "";
+        height: 2px;
+        background-color: #fff;
+        border:1px solid white;
+        display: block;
+    }
+
+  }
+  &__totalPrice{
+    text-align: right;
   }
   &__text {
     display: flex;
@@ -72,7 +103,7 @@
       border-radius: 16px;
     }
     h3 {
-      width: 90%;
+      width: 85%;
 
     }
   }

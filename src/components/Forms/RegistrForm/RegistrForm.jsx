@@ -14,8 +14,6 @@ export default function RegistrForm({ active }) {
     .then(res=>setUsersLenght(res.data.length+1))
   }, [])
   
-
-
   const validationSchema = object({
     userName: string()
       .min(5, "User Name must be at least 5 characters")
